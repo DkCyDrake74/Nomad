@@ -1380,3 +1380,134 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.23-11.36.21:456][184]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2023.10.23-11.36.21:542][185]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map3.Map3
 [2023.10.23-11.36.21:542][185]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-11.36.42:352][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.23-11.36.43:399][564]LogSlate: Window 'Save Content' being destroyed
+[2023.10.23-11.36.43:406][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-11.36.43:452][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/MainMap/MainMap" FILE="E:/Nomad/Nomad/Content/Map/MainMap/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-11.36.43:474][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.10.23-11.36.43:481][564]LogSavePackage: Moving output files for package: /Game/Map/MainMap/MainMap
+[2023.10.23-11.36.43:482][564]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/MainMap5B137DEF4AB7A0145C21B79D0880AF7E.tmp' to 'E:/Nomad/Nomad/Content/Map/MainMap/MainMap.umap'
+[2023.10.23-11.36.43:487][564]LogFileHelpers: Saving map 'MainMap' took 0.036
+[2023.10.23-11.36.43:493][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 296 ms)
+[2023.10.23-11.36.43:493][564]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-11.36.43:493][564]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-11.36.43:493][564]LightingResults: New page: Lighting Build
+[2023.10.23-11.36.43:493][564]LoadErrors: New page: Loading map: Map3.umap
+[2023.10.23-11.36.43:557][564]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.43:557][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.43:557][564]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.43:557][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.43:557][564]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.43:557][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.43:557][564]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.43:557][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.43:558][564]MapCheck: New page: Map Check
+[2023.10.23-11.36.43:558][564]LightingResults: New page: Lighting Build
+[2023.10.23-11.36.43:562][564]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-11.36.43:562][564]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2023.10.23-11.36.43:563][564]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2023.10.23-11.36.43:563][564]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2023.10.23-11.36.43:564][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.10.23-11.36.43:567][564]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map3'.
+[2023.10.23-11.36.43:568][564]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.43:568][564]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.36.43:568][564]LogAIModule: Creating AISystem for world Map3
+[2023.10.23-11.36.43:641][564]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-11.36.43:651][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.10.23-11.36.43:656][564]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-11.36.43:656][564]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,065ms to complete.
+[2023.10.23-11.36.43:661][564]AssetCheck: New page: Asset Save: MainMap
+[2023.10.23-11.36.43:672][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.10.23-11.36.44:595][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.10.23-11.36.44:638][651]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.44:639][651]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map2.Map2
+[2023.10.23-11.36.44:639][651]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-11.36.44:639][651]LightingResults: New page: Lighting Build
+[2023.10.23-11.36.44:639][651]LoadErrors: New page: Loading map: Map2.umap
+[2023.10.23-11.36.44:679][651]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.44:679][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.44:680][651]MapCheck: New page: Map Check
+[2023.10.23-11.36.44:680][651]LightingResults: New page: Lighting Build
+[2023.10.23-11.36.44:684][651]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-11.36.44:685][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.10.23-11.36.44:686][651]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.44:686][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.44:692][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.10.23-11.36.44:696][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.10.23-11.36.44:698][651]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map2'.
+[2023.10.23-11.36.44:700][651]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.44:700][651]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.36.44:700][651]LogAIModule: Creating AISystem for world Map2
+[2023.10.23-11.36.44:767][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-11.36.44:776][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.10.23-11.36.44:780][651]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-11.36.44:781][651]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,069ms to complete.
+[2023.10.23-11.36.47:806][898]Cmd: DELETE
+[2023.10.23-11.36.47:806][898]Cmd: ACTOR DELETE
+[2023.10.23-11.36.47:811][898]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.47:821][898]LogEditorActor: Deleted Actor: DirectionalLight
+[2023.10.23-11.36.47:826][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.23-11.36.47:826][898]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.10.23-11.36.49:172][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.10.23-11.36.50:052][ 22]LogSlate: Window 'Save Content' being destroyed
+[2023.10.23-11.36.50:059][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-11.36.50:117][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map2" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-11.36.50:138][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.10.23-11.36.50:151][ 22]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map2
+[2023.10.23-11.36.50:151][ 22]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map2DC70E6C84D43B86D3FF37891757EA2F0.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map2.umap'
+[2023.10.23-11.36.50:156][ 22]LogFileHelpers: Saving map 'Map2' took 0.039
+[2023.10.23-11.36.50:161][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 398 ms)
+[2023.10.23-11.36.50:202][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.50:203][ 22]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.36.50:203][ 22]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-11.36.50:203][ 22]LightingResults: New page: Lighting Build
+[2023.10.23-11.36.50:204][ 22]LoadErrors: New page: Loading map: Map1.umap
+[2023.10.23-11.36.50:249][ 22]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.50:249][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.50:249][ 22]MapCheck: New page: Map Check
+[2023.10.23-11.36.50:249][ 22]LightingResults: New page: Lighting Build
+[2023.10.23-11.36.50:253][ 22]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-11.36.50:254][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.23-11.36.50:256][ 22]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.50:256][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.50:256][ 22]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.50:256][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.50:262][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-11.36.50:266][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.10.23-11.36.50:269][ 22]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map1'.
+[2023.10.23-11.36.50:269][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.50:269][ 22]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.36.50:269][ 22]LogAIModule: Creating AISystem for world Map1
+[2023.10.23-11.36.50:340][ 22]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-11.36.50:348][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.10.23-11.36.50:353][ 22]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-11.36.50:353][ 22]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,06ms to complete.
+[2023.10.23-11.36.50:363][ 22]AssetCheck: New page: Asset Save: Map2
+[2023.10.23-11.36.53:003][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.10.23-11.36.53:054][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.53:055][258]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/MainMap/MainMap.MainMap
+[2023.10.23-11.36.53:055][258]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/MainMap/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-11.36.53:055][258]LightingResults: New page: Lighting Build
+[2023.10.23-11.36.53:055][258]LoadErrors: New page: Loading map: MainMap.umap
+[2023.10.23-11.36.53:073][258]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.53:073][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.53:073][258]MapCheck: New page: Map Check
+[2023.10.23-11.36.53:073][258]LightingResults: New page: Lighting Build
+[2023.10.23-11.36.53:078][258]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-11.36.53:079][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.10.23-11.36.53:080][258]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.36.53:080][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.36.53:085][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.23-11.36.53:087][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.10.23-11.36.53:091][258]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMap'.
+[2023.10.23-11.36.53:092][258]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.53:092][258]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.36.53:092][258]LogAIModule: Creating AISystem for world MainMap
+[2023.10.23-11.36.53:093][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map1) is flushing async loading
+[2023.10.23-11.36.53:093][258]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.23-11.36.53:099][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map2) is flushing async loading
+[2023.10.23-11.36.53:104][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map3) is flushing async loading
+[2023.10.23-11.36.53:180][258]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-11.36.53:190][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.10.23-11.36.53:195][258]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-11.36.53:195][258]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,112ms to complete.
