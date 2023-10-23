@@ -1348,3 +1348,317 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.23-14.16.43:216][480]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms
 [2023.10.23-14.16.43:217][480]AssetCheck: New page: Asset Save: MainMap
 [2023.10.23-14.16.43:217][480]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/MainMap/MainMap.MainMap
+[2023.10.23-14.17.02:448][711]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.23-14.17.02:456][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.23-14.17.02:456][711]PIE: New page: PIE session: MainMap (23 oct. 2023 à 18:17:02)
+[2023.10.23-14.17.02:489][711]LogPlayLevel: Display: Creating online subsystem for client :Context_4
+[2023.10.23-14.17.02:492][711]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.10.23-14.17.02:504][712]LogPlayLevel: Creating play world package: /Game/Map/MainMap/UEDPIE_0_MainMap
+[2023.10.23-14.17.02:515][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010211s)
+[2023.10.23-14.17.02:515][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap/MainMap.MainMap to /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap (0.010259s)
+[2023.10.23-14.17.02:520][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-14.17.02:522][712]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-14.17.02:523][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-14.17.02:523][712]LogAIModule: Creating AISystem for world MainMap
+[2023.10.23-14.17.02:523][712]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2023.10.23-14.17.02:523][712]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.10.23-14.17.02:523][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.23-14.17.02:523][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.23-14.17.02:523][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.23-14.17.02:523][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.23-14.17.02:523][712]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.23-14.17.02:523][712]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.23-14.17.02:523][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.23-14.17.02:523][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.23-14.17.02:524][712]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.23-14.17.02:524][712]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.23-14.17.02:524][712]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.23-14.17.02:526][712]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.23-14.17.02:549][712]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Razer USB Sound Card)
+[2023.10.23-14.17.02:549][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.23-14.17.02:549][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.23-14.17.02:549][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.23-14.17.02:549][712]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.10.23-14.17.02:549][712]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.10.23-14.17.02:551][712]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.10.23-14.17.02:551][712]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.10.23-14.17.02:551][712]LogInit: FAudioDevice initialized with ID 3.
+[2023.10.23-14.17.02:551][712]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMap'.
+[2023.10.23-14.17.02:551][712]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.10.23-14.17.02:554][712]LogLoad: Game class is 'Main_GameMode_C'
+[2023.10.23-14.17.02:556][712]LogWorld: Bringing World /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.10.23-16.17.02
+[2023.10.23-14.17.02:557][712]LogWorld: Bringing up level for play took: 0.002747
+[2023.10.23-14.17.02:561][712]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.10.23-14.17.02:561][712]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.10.23-14.17.02:561][712]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.10.23-14.17.02:561][712]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2023.10.23-14.17.02:561][712]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.10.23-14.17.02:561][712]LogNet: GameNetDriver IpNetDriver_1 IpNetDriver listening on port 17777
+[2023.10.23-14.17.02:566][712]LogScript: Warning: Accessed None trying to read property CallFunc_GetStreamingLevel_ReturnValue
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:generateNewTiles:05E5
+[2023.10.23-14.17.02:566][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetStreamingLevel_ReturnValue". Node:  Create Instance Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.02:566][712]LogScript: Warning: Accessed None trying to read property CallFunc_CreateInstance_ReturnValue
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:generateNewTiles:0729
+[2023.10.23-14.17.02:566][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set LevelTransform Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.02:566][712]LogScript: Warning: Attempted to assign to None
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:generateNewTiles:073E
+[2023.10.23-14.17.02:566][712]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LevelTransform Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.02:566][712]LogScript: Warning: Accessed None trying to read property CallFunc_CreateInstance_ReturnValue
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:generateNewTiles:0754
+[2023.10.23-14.17.02:566][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set bShouldBlockOnLoad Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.02:566][712]LogScript: Warning: Accessed None trying to read property CallFunc_CreateInstance_ReturnValue
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:generateNewTiles:077F
+[2023.10.23-14.17.02:566][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set bShouldBlockOnUnload Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.02:566][712]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:setLevelVisibility:008C
+[2023.10.23-14.17.02:566][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeLoaded Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.02:566][712]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:setLevelVisibility:013A
+[2023.10.23-14.17.02:566][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeVisible Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.02:573][712]PIE: Server logged in
+[2023.10.23-14.17.02:573][712]PIE: Play in editor total start time 0,118 seconds.
+[2023.10.23-14.17.02:765][716]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x-5x0 took (less than) 21.43 ms
+[2023.10.23-14.17.03:144][737]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x-5x0 took (less than) 21.97 ms
+[2023.10.23-14.17.03:318][747]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_3x1x0 took (less than) 21.99 ms
+[2023.10.23-14.17.03:535][759]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x-6x0 took (less than) 22.43 ms
+[2023.10.23-14.17.03:858][777]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x1x0 took (less than) 20.73 ms
+[2023.10.23-14.17.04:115][791]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x3x0 took (less than) 23.99 ms
+[2023.10.23-14.17.04:466][810]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x-8x0 took (less than) 22.88 ms
+[2023.10.23-14.17.04:540][814]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x-5x0 took (less than) 22.95 ms
+[2023.10.23-14.17.04:949][836]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x3x0 took (less than) 23.43 ms
+[2023.10.23-14.17.05:215][850]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x-7x0 took (less than) 23.81 ms
+[2023.10.23-14.17.05:441][862]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x-5x0 took (less than) 20.73 ms
+[2023.10.23-14.17.05:498][865]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x-6x0 took (less than) 20.30 ms
+[2023.10.23-14.17.05:630][872]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_9x-2x0 took (less than) 26.83 ms
+[2023.10.23-14.17.05:898][886]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x-7x0 took (less than) 24.48 ms
+[2023.10.23-14.17.06:125][898]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x3x0 took (less than) 21.56 ms
+[2023.10.23-14.17.06:199][902]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x6x0 took (less than) 23.51 ms
+[2023.10.23-14.17.06:315][908]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_9x-4x0 took (less than) 21.61 ms
+[2023.10.23-14.17.06:373][911]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x-2x0 took (less than) 20.91 ms
+[2023.10.23-14.17.06:468][916]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x4x0 took (less than) 22.86 ms
+[2023.10.23-14.17.06:664][926]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x-3x0 took (less than) 25.67 ms
+[2023.10.23-14.17.06:782][932]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x2x0 took (less than) 20.80 ms
+[2023.10.23-14.17.06:976][942]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x-2x0 took (less than) 24.32 ms
+[2023.10.23-14.17.07:738][980]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x4x0 took (less than) 26.11 ms
+[2023.10.23-14.17.07:951][991]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-4x0 took (less than) 23.15 ms
+[2023.10.23-14.17.08:013][994]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x1x0 took (less than) 21.48 ms
+[2023.10.23-14.17.08:092][998]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-2x0 took (less than) 25.52 ms
+[2023.10.23-14.17.08:212][  4]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_3x-1x0 took (less than) 21.85 ms
+[2023.10.23-14.17.08:493][ 18]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-7x0 took (less than) 25.55 ms
+[2023.10.23-14.17.08:553][ 21]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-5x0 took (less than) 20.51 ms
+[2023.10.23-14.17.08:614][ 24]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-6x0 took (less than) 20.89 ms
+[2023.10.23-14.17.08:757][ 31]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x7x0 took (less than) 22.77 ms
+[2023.10.23-14.17.09:046][ 45]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x9x0 took (less than) 20.52 ms
+[2023.10.23-14.17.09:375][ 61]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x-9x0 took (less than) 24.50 ms
+[2023.10.23-14.17.09:438][ 64]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_3x9x0 took (less than) 21.62 ms
+[2023.10.23-14.17.09:836][ 84]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_3x-2x0 took (less than) 21.40 ms
+[2023.10.23-14.17.10:167][101]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x3x0 took (less than) 26.10 ms
+[2023.10.23-14.17.10:244][105]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x-1x0 took (less than) 24.34 ms
+[2023.10.23-14.17.10:595][123]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x-3x0 took (less than) 21.66 ms
+[2023.10.23-14.17.10:676][127]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x4x0 took (less than) 22.02 ms
+[2023.10.23-14.17.11:692][170]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x-4x0 took (less than) 30.01 ms
+[2023.10.23-14.17.11:810][173]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x5x0 took (less than) 26.00 ms
+[2023.10.23-14.17.12:008][180]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x1x0 took (less than) 22.78 ms
+[2023.10.23-14.17.12:113][184]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x3x0 took (less than) 22.01 ms
+[2023.10.23-14.17.12:317][191]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x4x0 took (less than) 23.11 ms
+[2023.10.23-14.17.12:569][198]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x-1x0 took (less than) 30.66 ms
+[2023.10.23-14.17.13:264][217]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x7x0 took (less than) 30.69 ms
+[2023.10.23-14.17.13:557][224]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-5x0 took (less than) 36.42 ms
+[2023.10.23-14.17.13:727][228]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x6x0 took (less than) 40.29 ms
+[2023.10.23-14.17.13:856][231]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-4x0 took (less than) 34.53 ms
+[2023.10.23-14.17.14:009][235]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-8x0 took (less than) 31.61 ms
+[2023.10.23-14.17.14:121][238]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x8x0 took (less than) 31.86 ms
+[2023.10.23-14.17.14:275][242]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-5x0 took (less than) 35.66 ms
+[2023.10.23-14.17.14:392][245]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-2x0 took (less than) 32.94 ms
+[2023.10.23-14.17.14:538][249]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-8x0 took (less than) 33.81 ms
+[2023.10.23-14.17.14:648][252]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-1x0 took (less than) 28.57 ms
+[2023.10.23-14.17.15:560][275]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x1x0 took (less than) 32.66 ms
+[2023.10.23-14.17.15:874][283]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x-1x0 took (less than) 33.20 ms
+[2023.10.23-14.17.16:178][290]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x-3x0 took (less than) 36.19 ms
+[2023.10.23-14.17.16:350][294]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x3x0 took (less than) 37.02 ms
+[2023.10.23-14.17.16:485][297]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x5x0 took (less than) 39.53 ms
+[2023.10.23-14.17.16:656][301]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x-5x0 took (less than) 42.64 ms
+[2023.10.23-14.17.16:791][304]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x-6x0 took (less than) 39.46 ms
+[2023.10.23-14.17.17:126][311]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x-7x0 took (less than) 41.43 ms
+[2023.10.23-14.17.17:263][314]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x-2x0 took (less than) 41.59 ms
+[2023.10.23-14.17.17:594][321]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x-4x0 took (less than) 44.24 ms
+[2023.10.23-14.17.17:967][329]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x-5x0 took (less than) 37.36 ms
+[2023.10.23-14.17.18:106][332]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x-8x0 took (less than) 42.85 ms
+[2023.10.23-14.17.18:491][340]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x-9x0 took (less than) 41.26 ms
+[2023.10.23-14.17.18:633][343]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x7x0 took (less than) 44.18 ms
+[2023.10.23-14.17.18:816][347]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x7x0 took (less than) 37.22 ms
+[2023.10.23-14.17.18:947][350]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_2x-7x0 took (less than) 40.43 ms
+[2023.10.23-14.17.19:122][354]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x5x0 took (less than) 39.21 ms
+[2023.10.23-14.17.19:436][361]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-9x0 took (less than) 40.92 ms
+[2023.10.23-14.17.19:573][364]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x4x0 took (less than) 37.29 ms
+[2023.10.23-14.17.19:751][368]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x3x0 took (less than) 39.58 ms
+[2023.10.23-14.17.19:891][371]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x8x0 took (less than) 39.55 ms
+[2023.10.23-14.17.21:053][393]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x-1x0 took (less than) 40.56 ms
+[2023.10.23-14.17.21:506][403]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_1x0x0 took (less than) 32.57 ms
+[2023.10.23-14.17.21:627][406]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x5x0 took (less than) 33.73 ms
+[2023.10.23-14.17.21:754][409]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x7x0 took (less than) 36.02 ms
+[2023.10.23-14.17.22:149][417]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x6x0 took (less than) 42.68 ms
+[2023.10.23-14.17.22:331][421]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x-3x0 took (less than) 44.11 ms
+[2023.10.23-14.17.22:460][424]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x9x0 took (less than) 35.38 ms
+[2023.10.23-14.17.22:620][428]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x-2x0 took (less than) 37.03 ms
+[2023.10.23-14.17.22:745][431]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x8x0 took (less than) 32.80 ms
+[2023.10.23-14.17.22:916][435]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x1x0 took (less than) 38.45 ms
+[2023.10.23-14.17.23:789][454]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x-1x0 took (less than) 46.34 ms
+[2023.10.23-14.17.23:930][457]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x-5x0 took (less than) 39.87 ms
+[2023.10.23-14.17.24:272][464]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x8x0 took (less than) 42.63 ms
+[2023.10.23-14.17.24:434][467]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x5x0 took (less than) 40.99 ms
+[2023.10.23-14.17.24:577][470]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x-8x0 took (less than) 42.14 ms
+[2023.10.23-14.17.24:762][474]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x7x0 took (less than) 37.96 ms
+[2023.10.23-14.17.25:258][484]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x-9x0 took (less than) 42.09 ms
+[2023.10.23-14.17.25:462][488]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x6x0 took (less than) 52.33 ms
+[2023.10.23-14.17.26:075][499]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x3x0 took (less than) 51.54 ms
+[2023.10.23-14.17.26:280][503]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_0x-7x0 took (less than) 43.23 ms
+[2023.10.23-14.17.26:332][505]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:setLevelVisibility:008C
+[2023.10.23-14.17.26:332][505]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeLoaded Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.26:332][505]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	EndlessWorldComponent_C /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap:PersistentLevel.Main_PlayerControler_C_0.EndlessWorldComponent
+	Function /Game/EndlessWorld/Blueprints/EndlessWorldComponent.EndlessWorldComponent_C:setLevelVisibility:013A
+[2023.10.23-14.17.26:332][505]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeVisible Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.26:413][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.10.23-14.17.26:742][513]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-6x0 took (less than) 46.83 ms
+[2023.10.23-14.17.27:067][520]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x0x0 took (less than) 37.41 ms
+[2023.10.23-14.17.27:247][524]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-3x0 took (less than) 34.06 ms
+[2023.10.23-14.17.27:408][528]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-2x0 took (less than) 35.13 ms
+[2023.10.23-14.17.27:711][535]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-9x0 took (less than) 34.24 ms
+[2023.10.23-14.17.27:848][538]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-4x0 took (less than) 38.17 ms
+[2023.10.23-14.17.28:015][542]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-1x0 took (less than) 41.33 ms
+[2023.10.23-14.17.28:318][549]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-6x-5x0 took (less than) 42.78 ms
+[2023.10.23-14.17.28:477][553]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-6x4x0 took (less than) 24.27 ms
+[2023.10.23-14.17.28:592][556]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-6x-7x0 took (less than) 35.27 ms
+[2023.10.23-14.17.28:748][560]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-6x-6x0 took (less than) 34.08 ms
+[2023.10.23-14.17.29:277][572]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-8x-2x0 took (less than) 32.53 ms
+[2023.10.23-14.17.29:378][575]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-6x3x0 took (less than) 22.73 ms
+[2023.10.23-14.17.29:582][582]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x-7x0 took (less than) 20.56 ms
+[2023.10.23-14.17.30:015][597]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x-3x0 took (less than) 21.26 ms
+[2023.10.23-14.17.30:468][609]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x2x0 took (less than) 26.49 ms
+[2023.10.23-14.17.30:708][616]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x4x0 took (less than) 29.64 ms
+[2023.10.23-14.17.30:847][620]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x3x0 took (less than) 24.90 ms
+[2023.10.23-14.17.31:018][625]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeLoaded Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.31:018][625]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeVisible Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-14.17.31:242][631]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x8x0 took (less than) 23.38 ms
+[2023.10.23-14.17.31:343][634]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x7x0 took (less than) 26.08 ms
+[2023.10.23-14.17.31:468][638]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x-8x0 took (less than) 25.07 ms
+[2023.10.23-14.17.31:797][649]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-9x-4x0 took (less than) 20.67 ms
+[2023.10.23-14.17.32:267][670]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-9x0x0 took (less than) 30.99 ms
+[2023.10.23-14.17.32:634][685]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-8x-6x0 took (less than) 27.97 ms
+[2023.10.23-14.17.32:939][692]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-8x-5x0 took (less than) 37.17 ms
+[2023.10.23-14.17.33:258][699]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x-6x0 took (less than) 38.11 ms
+[2023.10.23-14.17.33:560][706]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-6x7x0 took (less than) 32.41 ms
+[2023.10.23-14.17.33:688][709]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-8x1x0 took (less than) 32.55 ms
+[2023.10.23-14.17.33:808][712]LogStreaming: Display: FlushAsyncLoading(): 0 QueuedPackages, 53 AsyncPackages
+[2023.10.23-14.17.34:635][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.23-14.17.34:635][712]LogWorld: BeginTearingDown for /Game/Map/MainMap/UEDPIE_0_MainMap
+[2023.10.23-14.17.34:792][712]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.34:793][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.34:795][712]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2023.10.23-14.17.34:795][712]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2023.10.23-14.17.34:795][712]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2023.10.23-14.17.34:797][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.23-14.17.34:817][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.35:110][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.23-14.17.35:110][712]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.10.23-14.17.35:110][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.10.23-14.17.35:112][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.10.23-14.17.35:332][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.10.23-14.17.35:763][713]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.10.23-14.17.35:768][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.10.23-14.17.36:832][797]LogSlate: Window 'Message Log' being destroyed
+[2023.10.23-14.17.36:845][797]LogSlate: Window 'Message Log' being destroyed
+[2023.10.23-14.17.38:668][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.10.23-14.17.44:905][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.10.23-14.17.44:906][604]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/MainMap/MainMap.MainMap
+[2023.10.23-14.17.44:906][604]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/MainMap/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-14.17.44:906][604]LightingResults: New page: Lighting Build
+[2023.10.23-14.17.44:906][604]LoadErrors: New page: Loading map: MainMap.umap
+[2023.10.23-14.17.44:962][604]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.44:962][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.44:962][604]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.44:962][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.44:962][604]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.44:962][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.44:962][604]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.44:962][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.44:962][604]MapCheck: New page: Map Check
+[2023.10.23-14.17.44:963][604]LightingResults: New page: Lighting Build
+[2023.10.23-14.17.44:967][604]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-14.17.44:973][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.23-14.17.44:993][604]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMap'.
+[2023.10.23-14.17.44:993][604]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-14.17.44:993][604]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-14.17.44:993][604]LogAIModule: Creating AISystem for world MainMap
+[2023.10.23-14.17.45:034][604]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map3) is flushing async loading
+[2023.10.23-14.17.45:034][604]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.23-14.17.45:047][604]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map2) is flushing async loading
+[2023.10.23-14.17.45:061][604]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map1) is flushing async loading
+[2023.10.23-14.17.45:157][604]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-14.17.45:168][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.10.23-14.17.45:172][604]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-14.17.45:172][604]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,15ms to complete.
+[2023.10.23-14.17.45:196][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.10.23-14.17.50:971][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.10.23-14.17.50:973][174]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-14.17.50:973][174]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-14.17.50:973][174]LightingResults: New page: Lighting Build
+[2023.10.23-14.17.50:973][174]LoadErrors: New page: Loading map: Map1.umap
+[2023.10.23-14.17.51:021][174]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.51:021][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.51:021][174]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.51:021][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.51:021][174]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.51:021][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.51:021][174]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-14.17.51:021][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-14.17.51:022][174]MapCheck: New page: Map Check
+[2023.10.23-14.17.51:022][174]LightingResults: New page: Lighting Build
+[2023.10.23-14.17.51:028][174]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-14.17.51:031][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.23-14.17.51:032][174]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map1'.
+[2023.10.23-14.17.51:032][174]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-14.17.51:032][174]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-14.17.51:032][174]LogAIModule: Creating AISystem for world Map1
+[2023.10.23-14.17.51:163][174]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-14.17.51:174][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-14.17.51:180][174]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-14.17.51:180][174]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,064ms to complete.
+[2023.10.23-14.17.51:226][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.10.23-14.17.52:867][297]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.23-14.17.55:483][471]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-14.17.55:483][471]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-14.17.55:483][471]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.DirectionalLight_0
+[2023.10.23-14.17.55:483][471]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.DirectionalLight_0
+[2023.10.23-14.17.55:519][471]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-14.17.55:519][471]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-14.17.55:520][471]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.DirectionalLight_1
+[2023.10.23-14.17.55:520][471]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.DirectionalLight_1
+[2023.10.23-14.17.55:659][479]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-14.17.55:659][479]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-14.17.55:661][479]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.DirectionalLight_2
+[2023.10.23-14.17.55:661][479]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.DirectionalLight_2
+[2023.10.23-14.18.03:357][947]LogViewport: Scene viewport resized to 1184x867, mode Windowed.
+[2023.10.23-14.18.27:767][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.10.23-14.18.27:772][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-14.18.27:830][425]LogTexture: Display: Building textures: /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.Landscape_0.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.10.23-14.18.27:830][425]LogTexture: Display: Building textures: /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.Landscape_0.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 7.72916 MB), EncodeSpeed: Fast
+[2023.10.23-14.18.27:830][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map1" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-14.18.27:858][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.10.23-14.18.27:864][425]LogTexture: Display: Building textures: /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.Landscape_0.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 7.72916 MB), EncodeSpeed: Fast
+[2023.10.23-14.18.27:913][425]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map1
+[2023.10.23-14.18.27:913][425]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map1A733CA96417FC91AB1A582B18BCC2940.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map1.umap'
+[2023.10.23-14.18.27:918][425]LogFileHelpers: Saving map 'Map1' took 0.089
+[2023.10.23-14.18.27:926][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 273 ms)
+[2023.10.23-14.18.27:927][425]AssetCheck: New page: Asset Save: Map1
+[2023.10.23-14.18.27:928][425]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map1.Map1
