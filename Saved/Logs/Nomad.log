@@ -1361,3 +1361,57 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.23-11.27.13:186][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 388 ms)
 [2023.10.23-11.27.13:187][ 10]AssetCheck: New page: Asset Save: Map2
 [2023.10.23-11.27.13:187][ 10]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map2.Map2
+[2023.10.23-11.28.17:733][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.10.23-11.28.17:791][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.28.17:792][178]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-11.28.17:792][178]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-11.28.17:792][178]LightingResults: New page: Lighting Build
+[2023.10.23-11.28.17:792][178]LoadErrors: New page: Loading map: Map3.umap
+[2023.10.23-11.28.17:812][178]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.28.17:812][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.28.17:812][178]MapCheck: New page: Map Check
+[2023.10.23-11.28.17:812][178]LightingResults: New page: Lighting Build
+[2023.10.23-11.28.17:816][178]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-11.28.17:818][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-11.28.17:819][178]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.28.17:819][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.28.17:824][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.23-11.28.17:828][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.23-11.28.17:832][178]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map3'.
+[2023.10.23-11.28.17:832][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.28.17:832][178]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.28.17:832][178]LogAIModule: Creating AISystem for world Map3
+[2023.10.23-11.28.17:901][178]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-11.28.17:911][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.10.23-11.28.17:915][178]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-11.28.17:915][178]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,068ms to complete.
+[2023.10.23-11.28.23:954][774]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2023.10.23-11.28.23:954][774]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2023.10.23-11.28.23:955][774]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.StaticMeshActor_0
+[2023.10.23-11.28.23:955][774]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.StaticMeshActor_0
+[2023.10.23-11.28.29:475][149]Cmd: DUPLICATE
+[2023.10.23-11.28.29:475][149]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.28.31:417][264]Cmd: DUPLICATE
+[2023.10.23-11.28.31:417][264]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.28.32:908][356]Cmd: DUPLICATE
+[2023.10.23-11.28.32:908][356]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.28.34:641][464]Cmd: DUPLICATE
+[2023.10.23-11.28.34:641][464]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.28.36:648][591]Cmd: DUPLICATE
+[2023.10.23-11.28.36:648][591]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.28.41:976][936]Cmd: DUPLICATE
+[2023.10.23-11.28.41:976][936]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.28.43:342][ 25]Cmd: DUPLICATE
+[2023.10.23-11.28.43:342][ 25]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.28.46:696][255]Cmd: DUPLICATE
+[2023.10.23-11.28.46:696][255]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.28.53:282][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.10.23-11.28.53:286][717]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-11.28.53:321][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map3" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-11.28.53:347][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.10.23-11.28.53:358][717]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map3
+[2023.10.23-11.28.53:358][717]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map3C24DE50245F9779B41D5998466F2E49F.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap'
+[2023.10.23-11.28.53:364][717]LogFileHelpers: Saving map 'Map3' took 0.044
+[2023.10.23-11.28.53:368][717]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 471 ms)
+[2023.10.23-11.28.53:369][717]AssetCheck: New page: Asset Save: Map3
+[2023.10.23-11.28.53:369][717]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map3.Map3
