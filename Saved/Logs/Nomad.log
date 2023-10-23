@@ -1236,3 +1236,128 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.23-11.24.22:482][582]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 172 ms)
 [2023.10.23-11.24.22:483][582]AssetCheck: New page: Asset Save: Map3
 [2023.10.23-11.24.22:483][582]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-11.24.38:348][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-11.24.38:349][938]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.24.38:349][938]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-11.24.38:349][938]LightingResults: New page: Lighting Build
+[2023.10.23-11.24.38:349][938]LoadErrors: New page: Loading map: Map1.umap
+[2023.10.23-11.24.38:398][938]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.24.38:399][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.24.38:399][938]MapCheck: New page: Map Check
+[2023.10.23-11.24.38:399][938]LightingResults: New page: Lighting Build
+[2023.10.23-11.24.38:403][938]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-11.24.38:404][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.10.23-11.24.38:406][938]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.24.38:406][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.24.38:406][938]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.24.38:406][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.24.38:412][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.10.23-11.24.38:416][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-11.24.38:418][938]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map1'.
+[2023.10.23-11.24.38:419][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.24.38:419][938]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.24.38:419][938]LogAIModule: Creating AISystem for world Map1
+[2023.10.23-11.24.38:490][938]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-11.24.38:499][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.10.23-11.24.38:508][938]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-11.24.38:508][938]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,063ms to complete.
+[2023.10.23-11.24.44:516][419]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.23-11.24.46:640][644]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.23-11.24.46:640][644]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.23-11.24.46:640][644]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.StaticMeshActor_0
+[2023.10.23-11.24.46:644][644]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.StaticMeshActor_0
+[2023.10.23-11.24.46:774][645]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.23-11.24.46:774][645]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.23-11.24.46:774][645]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.StaticMeshActor_2
+[2023.10.23-11.24.46:774][645]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.StaticMeshActor_2
+[2023.10.23-11.24.47:304][687]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.23-11.24.47:304][687]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.10.23-11.24.47:305][687]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.StaticMeshActor_3
+[2023.10.23-11.24.47:305][687]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Map/ProceduralMap/Map1.Map1:PersistentLevel.StaticMeshActor_3
+[2023.10.23-11.25.24:820][345]Cmd: DUPLICATE
+[2023.10.23-11.25.24:820][345]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.25.30:348][729]LogDerivedDataCache: C:/Users/axelr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:30.526 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 15936 files in 18926 folders with total size 1932 MiB.
+[2023.10.23-11.25.31:584][798]Cmd: DUPLICATE
+[2023.10.23-11.25.31:584][798]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.25.46:158][738]Cmd: DUPLICATE
+[2023.10.23-11.25.46:158][738]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.25.51:221][ 54]Cmd: DUPLICATE
+[2023.10.23-11.25.51:221][ 54]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.25.56:535][412]Cmd: DUPLICATE
+[2023.10.23-11.25.56:535][412]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.25.58:733][554]Cmd: DUPLICATE
+[2023.10.23-11.25.58:733][554]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.02:034][794]Cmd: DUPLICATE
+[2023.10.23-11.26.02:034][794]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.08:558][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.10.23-11.26.08:562][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-11.26.08:623][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map1" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-11.26.08:644][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.10.23-11.26.08:659][266]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map1
+[2023.10.23-11.26.08:659][266]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map10FE1ED3A40C1219BBF866C987A6416D4.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map1.umap'
+[2023.10.23-11.26.08:664][266]LogFileHelpers: Saving map 'Map1' took 0.041
+[2023.10.23-11.26.08:675][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 284 ms)
+[2023.10.23-11.26.08:676][266]AssetCheck: New page: Asset Save: Map1
+[2023.10.23-11.26.08:676][266]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.26.21:025][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-11.26.21:076][219]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.26.21:076][219]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map2.Map2
+[2023.10.23-11.26.21:076][219]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-11.26.21:076][219]LightingResults: New page: Lighting Build
+[2023.10.23-11.26.21:077][219]LoadErrors: New page: Loading map: Map2.umap
+[2023.10.23-11.26.21:095][219]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.26.21:095][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.26.21:096][219]MapCheck: New page: Map Check
+[2023.10.23-11.26.21:096][219]LightingResults: New page: Lighting Build
+[2023.10.23-11.26.21:100][219]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-11.26.21:101][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-11.26.21:103][219]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.26.21:103][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.26.21:107][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.10.23-11.26.21:111][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.10.23-11.26.21:114][219]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map2'.
+[2023.10.23-11.26.21:114][219]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.26.21:114][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.26.21:114][219]LogAIModule: Creating AISystem for world Map2
+[2023.10.23-11.26.21:182][219]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-11.26.21:192][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.10.23-11.26.21:197][219]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-11.26.21:197][219]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,07ms to complete.
+[2023.10.23-11.26.23:299][358]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.23-11.26.23:368][362]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.26.29:389][ 36]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.10.23-11.26.29:389][ 36]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.10.23-11.26.29:390][ 36]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Map/ProceduralMap/Map2.Map2:PersistentLevel.StaticMeshActor_0
+[2023.10.23-11.26.29:391][ 36]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Map/ProceduralMap/Map2.Map2:PersistentLevel.StaticMeshActor_0
+[2023.10.23-11.26.33:353][298]Cmd: DUPLICATE
+[2023.10.23-11.26.33:353][298]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.39:024][668]Cmd: DUPLICATE
+[2023.10.23-11.26.39:024][668]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.40:689][771]Cmd: DUPLICATE
+[2023.10.23-11.26.40:689][771]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.42:242][860]Cmd: DUPLICATE
+[2023.10.23-11.26.42:242][860]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.43:652][943]Cmd: DUPLICATE
+[2023.10.23-11.26.43:652][943]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.47:330][182]Cmd: DUPLICATE
+[2023.10.23-11.26.47:330][182]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.50:984][379]Cmd: DUPLICATE
+[2023.10.23-11.26.50:984][379]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.53:433][549]Cmd: DUPLICATE
+[2023.10.23-11.26.53:433][549]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.26.59:445][975]Cmd: DUPLICATE
+[2023.10.23-11.26.59:445][975]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.27.02:128][163]Cmd: DUPLICATE
+[2023.10.23-11.27.02:128][163]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.27.04:260][313]Cmd: DUPLICATE
+[2023.10.23-11.27.04:260][313]Cmd: ACTOR DUPLICATE
+[2023.10.23-11.27.13:077][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.10.23-11.27.13:082][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-11.27.13:140][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map2" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-11.27.13:162][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.10.23-11.27.13:172][ 10]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map2
+[2023.10.23-11.27.13:172][ 10]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map2A621C9344A67EDD24809B0870B8718E0.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map2.umap'
+[2023.10.23-11.27.13:182][ 10]LogFileHelpers: Saving map 'Map2' took 0.042
+[2023.10.23-11.27.13:186][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 388 ms)
+[2023.10.23-11.27.13:187][ 10]AssetCheck: New page: Asset Save: Map2
+[2023.10.23-11.27.13:187][ 10]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map2.Map2
