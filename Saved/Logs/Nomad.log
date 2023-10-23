@@ -1476,3 +1476,387 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2023.10.23-17.06.13:081][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
 [2023.10.23-17.06.13:085][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
 [2023.10.23-17.06.13:094][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.41 sec)
+[2023.10.23-17.07.27:264][ 33]LogLinker: Warning: [AssetLog] E:\Nomad\Nomad\Content\Assets\Baazar\Environnement\Assets\Mesh\Architecture\SM_Pillar_Small_01a.uasset: Failed to load '/Game/Bazaar_Meshingun/Environment/Assets/Material/Tileable/MI_Trimsheet_Stone_01a': Can't find file.
+[2023.10.23-17.07.27:264][ 33]LogLinker: Warning: [AssetLog] E:\Nomad\Nomad\Content\Assets\Baazar\Environnement\Assets\Mesh\Architecture\SM_Pillar_Small_01a.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Bazaar_Meshingun/Environment/Assets/Material/Tileable/MI_Trimsheet_Stone_01a'
+[2023.10.23-17.07.27:265][ 33]LogStaticMesh: Display: Building static mesh SM_Pillar_Small_01a...
+[2023.10.23-17.07.27:274][ 33]LogStaticMesh: Adjacency [0.00s], tris: 326, UVs 2, Color
+[2023.10.23-17.07.27:274][ 33]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.10.23-17.07.27:274][ 33]LogStaticMesh: Leaves [0.00s]
+[2023.10.23-17.07.27:288][ 33]LogStaticMesh: Reduce [0.01s]
+[2023.10.23-17.07.27:293][ 33]LogStaticMesh: Fallback 0/7 [0.00s], num tris: 284
+[2023.10.23-17.07.27:299][ 33]LogStaticMesh: Fallback 1/7 [0.01s], num tris: 241
+[2023.10.23-17.07.27:308][ 33]LogStaticMesh: Fallback 2/7 [0.01s], num tris: 213
+[2023.10.23-17.07.27:318][ 33]LogStaticMesh: Fallback 3/7 [0.01s], num tris: 183
+[2023.10.23-17.07.27:331][ 33]LogStaticMesh: Fallback 4/7 [0.01s], num tris: 142
+[2023.10.23-17.07.27:343][ 33]LogStaticMesh: Fallback 5/7 [0.01s], num tris: 126
+[2023.10.23-17.07.27:359][ 34]LogStaticMesh: Fallback 6/7 [0.02s], num tris: 64
+[2023.10.23-17.07.27:359][ 34]LogStaticMesh: ConstrainClusters:
+[2023.10.23-17.07.27:359][ 34]LogStaticMesh:   Input: 6 Clusters, 703 Triangles and 934 Vertices
+[2023.10.23-17.07.27:359][ 34]LogStaticMesh:   Output without splits: 6 Clusters, 703 Triangles and 934 Vertices
+[2023.10.23-17.07.27:359][ 34]LogStaticMesh:   Output with splits: 6 Clusters, 703 Triangles and 934 Vertices
+[2023.10.23-17.07.27:360][ 34]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 6, Slow Path Clusters: 0, 1 Material: 6, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.10.23-17.07.27:360][ 34]LogStaticMesh: WritePages:
+[2023.10.23-17.07.27:360][ 34]LogStaticMesh:   Root: GPU size: 14548 bytes. 1 Pages. 14548.000 bytes per page (44.397% utilization).
+[2023.10.23-17.07.27:360][ 34]LogStaticMesh:   Streaming: 0 bytes.
+[2023.10.23-17.07.27:360][ 34]LogStaticMesh:   Page data disk size: 10820 bytes. Fixup data size: 56 bytes.
+[2023.10.23-17.07.27:360][ 34]LogStaticMesh:   Total GPU size: 14548 bytes, Total disk size: 10876 bytes.
+[2023.10.23-17.07.27:360][ 34]LogStaticMesh: Encode [0.00s]
+[2023.10.23-17.07.27:360][ 34]LogStaticMesh: Nanite build [0.09s]
+
+[2023.10.23-17.07.27:363][ 34]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Pillar_Small_01a.SM_Pillar_Small_01a
+[2023.10.23-17.07.27:363][ 34]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Pillar_Small_01a.SM_Pillar_Small_01a
+[2023.10.23-17.07.27:363][ 34]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Pillar_Small_01a.SM_Pillar_Small_01a as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_27
+[2023.10.23-17.07.27:364][ 34]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Pillar_Small_01a.SM_Pillar_Small_01a
+[2023.10.23-17.07.28:128][ 75]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Pillar_Small_01a.SM_Pillar_Small_01a
+[2023.10.23-17.07.28:128][ 75]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Pillar_Small_01a.SM_Pillar_Small_01a
+[2023.10.23-17.07.28:129][ 75]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Pillar_Small_01a.SM_Pillar_Small_01a as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_98EECBD0681D78B501_1827516417
+[2023.10.23-17.07.37:256][661]Cmd: DELETE
+[2023.10.23-17.07.37:256][661]Cmd: ACTOR DELETE
+[2023.10.23-17.07.37:257][661]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.07.37:270][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.10.23-17.07.37:274][661]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.10.23-17.07.38:635][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.10.23-17.07.49:474][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.10.23-17.07.49:626][531]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-17.07.49:629][531]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/MainMap/MainMap.MainMap
+[2023.10.23-17.07.49:629][531]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/MainMap/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-17.07.49:629][531]LightingResults: New page: Lighting Build
+[2023.10.23-17.07.49:630][531]LoadErrors: New page: Loading map: MainMap.umap
+[2023.10.23-17.07.49:689][531]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-17.07.49:690][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-17.07.49:690][531]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.23-17.07.49:691][531]MapCheck: New page: Map Check
+[2023.10.23-17.07.49:691][531]LightingResults: New page: Lighting Build
+[2023.10.23-17.07.49:695][531]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-17.07.49:699][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.10.23-17.07.49:702][531]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-17.07.49:702][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-17.07.49:714][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.10.23-17.07.49:719][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.10.23-17.07.49:738][531]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMap'.
+[2023.10.23-17.07.49:739][531]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-17.07.49:739][531]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-17.07.49:740][531]LogAIModule: Creating AISystem for world MainMap
+[2023.10.23-17.07.49:775][531]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map2) is flushing async loading
+[2023.10.23-17.07.49:775][531]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.23-17.07.49:806][531]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map3) is flushing async loading
+[2023.10.23-17.07.49:820][531]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Map/ProceduralMap/Map1) is flushing async loading
+[2023.10.23-17.07.49:909][531]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-17.07.49:921][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.10.23-17.07.49:925][531]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-17.07.49:925][531]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,109ms to complete.
+[2023.10.23-17.07.52:166][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.10.23-17.07.52:168][655]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-17.07.52:168][655]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-17.07.52:168][655]LightingResults: New page: Lighting Build
+[2023.10.23-17.07.52:168][655]LoadErrors: New page: Loading map: Map1.umap
+[2023.10.23-17.07.52:190][655]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-17.07.52:190][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-17.07.52:190][655]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-17.07.52:190][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-17.07.52:190][655]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-17.07.52:190][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-17.07.52:190][655]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-17.07.52:190][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-17.07.52:191][655]MapCheck: New page: Map Check
+[2023.10.23-17.07.52:191][655]LightingResults: New page: Lighting Build
+[2023.10.23-17.07.52:196][655]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-17.07.52:201][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.10.23-17.07.52:202][655]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map1'.
+[2023.10.23-17.07.52:202][655]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-17.07.52:202][655]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-17.07.52:202][655]LogAIModule: Creating AISystem for world Map1
+[2023.10.23-17.07.52:309][655]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-17.07.52:320][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.10.23-17.07.52:324][655]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-17.07.52:325][655]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,067ms to complete.
+[2023.10.23-17.07.52:364][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.10.23-17.07.57:551][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.10.23-17.07.57:634][142]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-17.07.57:636][142]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-17.07.57:636][142]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-17.07.57:636][142]LightingResults: New page: Lighting Build
+[2023.10.23-17.07.57:636][142]LoadErrors: New page: Loading map: Map3.umap
+[2023.10.23-17.07.57:710][142]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-17.07.57:710][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-17.07.57:710][142]MapCheck: New page: Map Check
+[2023.10.23-17.07.57:710][142]LightingResults: New page: Lighting Build
+[2023.10.23-17.07.57:714][142]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-17.07.57:716][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.23-17.07.57:719][142]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-17.07.57:719][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-17.07.57:730][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.10.23-17.07.57:734][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.10.23-17.07.57:753][142]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map3'.
+[2023.10.23-17.07.57:753][142]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-17.07.57:753][142]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-17.07.57:755][142]LogAIModule: Creating AISystem for world Map3
+[2023.10.23-17.07.57:862][142]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-17.07.57:873][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.10.23-17.07.57:878][142]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-17.07.57:878][142]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,077ms to complete.
+[2023.10.23-17.07.58:591][178]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.23-17.08.01:533][361]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-17.08.01:533][361]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-17.08.01:534][361]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.DirectionalLight_0
+[2023.10.23-17.08.01:534][361]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.DirectionalLight_0
+[2023.10.23-17.08.01:783][373]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-17.08.01:783][373]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.10.23-17.08.01:785][373]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.DirectionalLight_1
+[2023.10.23-17.08.01:786][373]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.DirectionalLight_1
+[2023.10.23-17.08.04:659][535]Cmd: DELETE
+[2023.10.23-17.08.04:659][535]Cmd: ACTOR DELETE
+[2023.10.23-17.08.04:675][535]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-17.08.04:682][535]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.04:691][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.23-17.08.04:694][535]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2023.10.23-17.08.05:252][570]Cmd: DELETE
+[2023.10.23-17.08.05:252][570]Cmd: ACTOR DELETE
+[2023.10.23-17.08.05:255][570]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.05:260][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.10.23-17.08.05:261][570]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.23-17.08.05:669][595]Cmd: DELETE
+[2023.10.23-17.08.05:669][595]Cmd: ACTOR DELETE
+[2023.10.23-17.08.06:477][643]Cmd: DELETE
+[2023.10.23-17.08.06:477][643]Cmd: ACTOR DELETE
+[2023.10.23-17.08.06:480][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.06:484][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.10.23-17.08.06:486][643]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.23-17.08.07:052][677]Cmd: DELETE
+[2023.10.23-17.08.07:052][677]Cmd: ACTOR DELETE
+[2023.10.23-17.08.07:055][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.07:060][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.10.23-17.08.07:061][677]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.23-17.08.07:558][707]Cmd: DELETE
+[2023.10.23-17.08.07:559][707]Cmd: ACTOR DELETE
+[2023.10.23-17.08.07:562][707]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.07:567][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.10.23-17.08.07:568][707]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.23-17.08.08:061][737]Cmd: DELETE
+[2023.10.23-17.08.08:061][737]Cmd: ACTOR DELETE
+[2023.10.23-17.08.08:600][769]Cmd: DELETE
+[2023.10.23-17.08.08:600][769]Cmd: ACTOR DELETE
+[2023.10.23-17.08.08:603][769]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.08:607][769]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.10.23-17.08.08:608][769]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.23-17.08.09:623][830]Cmd: DELETE
+[2023.10.23-17.08.09:623][830]Cmd: ACTOR DELETE
+[2023.10.23-17.08.09:626][830]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.09:631][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.10.23-17.08.09:633][830]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.10.23-17.08.10:535][884]Cmd: DELETE
+[2023.10.23-17.08.10:536][884]Cmd: ACTOR DELETE
+[2023.10.23-17.08.10:538][884]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.10:543][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.10.23-17.08.10:545][884]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.23-17.08.11:367][935]Cmd: DELETE
+[2023.10.23-17.08.11:367][935]Cmd: ACTOR DELETE
+[2023.10.23-17.08.11:369][935]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.23-17.08.11:374][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.10.23-17.08.11:375][935]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2023.10.23-17.08.18:942][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-17.08.22:792][569]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Wall_4x4_01a2.SM_Wall_4x4_01a2
+[2023.10.23-17.08.22:792][569]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Wall_4x4_01a2.SM_Wall_4x4_01a2
+[2023.10.23-17.08.22:793][569]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Wall_4x4_01a2.SM_Wall_4x4_01a2 as actor: StaticMeshActor /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.StaticMeshActor_10
+[2023.10.23-17.08.23:142][588]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Wall_4x4_01a2.SM_Wall_4x4_01a2
+[2023.10.23-17.08.23:142][588]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Wall_4x4_01a2.SM_Wall_4x4_01a2
+[2023.10.23-17.08.23:143][588]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Wall_4x4_01a2.SM_Wall_4x4_01a2 as actor: StaticMeshActor /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.StaticMeshActor_11
+[2023.10.23-17.08.26:157][748]Cmd: DUPLICATE
+[2023.10.23-17.08.26:157][748]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: ================================================
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Total job queries 220, among them cache hits 96 (43.64%)
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Tracking 124 distinct input hashes that result in 89 distinct outputs (71.77%)
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: RAM used: 2,76 MiB of 1,60 GiB budget. Usage: 0.17%
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Shaders Compiled: 51
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Jobs assigned 51, completed 51 (100%)
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Average time worker was idle: 14.42 s
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 0.63 s
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Job execution time: average 0.52 s, max 0.97 s
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 1.14
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Shader code size: average 38,597 KiB, min 8,062 KiB, max 62,508 KiB
+[2023.10.23-17.08.27:756][831]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.83 s
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: Jobs were issued in 51 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: Average processing rate: 6.51 jobs/sec
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: Total thread time: 19,232 s
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: Total thread preprocess time: 2,021 s
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: Percentage time preprocessing: 10.51%
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: Effective parallelization: 2.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 0.66 sec, max 0.71 sec, min 0.57 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 17.22% of total time (compiled    5 times, average 0.66 sec, max 0.71 sec, min 0.57 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.20% of total time (compiled    7 times, average 0.36 sec, max 0.46 sec, min 0.30 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.84% of total time (compiled    7 times, average 0.35 sec, max 0.48 sec, min 0.26 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.58% of total time (compiled    5 times, average 0.37 sec, max 0.43 sec, min 0.30 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.19% of total time (compiled    5 times, average 0.16 sec, max 0.18 sec, min 0.14 sec)
+[2023.10.23-17.08.27:757][831]LogShaderCompilers: Display: ================================================
+[2023.10.23-17.08.35:014][188]Cmd: DUPLICATE
+[2023.10.23-17.08.35:014][188]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.08.56:875][323]Cmd: DUPLICATE
+[2023.10.23-17.08.56:876][323]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.09.11:137][ 67]Cmd: DUPLICATE
+[2023.10.23-17.09.11:137][ 67]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.09.20:623][559]Cmd: DUPLICATE
+[2023.10.23-17.09.20:623][559]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.09.52:723][537]Cmd: DUPLICATE
+[2023.10.23-17.09.52:723][537]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.09.56:525][736]Cmd: DUPLICATE
+[2023.10.23-17.09.56:525][736]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.09.59:549][899]Cmd: DUPLICATE
+[2023.10.23-17.09.59:549][899]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.10.17:833][804]Cmd: DUPLICATE
+[2023.10.23-17.10.17:833][804]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.10.31:672][555]Cmd: DUPLICATE
+[2023.10.23-17.10.31:672][555]Cmd: ACTOR DUPLICATE
+[2023.10.23-17.10.45:646][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.10.23-17.10.45:652][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-17.10.45:701][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map3" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-17.10.45:729][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.10.23-17.10.45:779][257]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map3
+[2023.10.23-17.10.45:780][257]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map3A58695314B82A6EAB3925681A833CAB7.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap'
+[2023.10.23-17.10.45:787][257]LogFileHelpers: Saving map 'Map3' took 0.087
+[2023.10.23-17.10.45:797][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 1.56 sec)
+[2023.10.23-17.10.45:798][257]AssetCheck: New page: Asset Save: Map3
+[2023.10.23-17.10.45:798][257]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-17.11.25:901][514]LogStaticMesh: Display: Building static mesh SM_Doorway_01a...
+[2023.10.23-17.11.25:931][514]LogStaticMesh: Adjacency [0.00s], tris: 582, UVs 2, Color
+[2023.10.23-17.11.25:933][514]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.10.23-17.11.25:933][514]LogStaticMesh: Leaves [0.00s]
+[2023.10.23-17.11.25:962][514]LogStaticMesh: Reduce [0.03s]
+[2023.10.23-17.11.25:970][514]LogStaticMesh: Fallback 0/7 [0.01s], num tris: 256
+[2023.10.23-17.11.25:994][515]LogStaticMesh: Fallback 1/7 [0.02s], num tris: 216
+[2023.10.23-17.11.26:017][516]LogStaticMesh: Fallback 2/7 [0.02s], num tris: 192
+[2023.10.23-17.11.26:044][517]LogStaticMesh: Fallback 3/7 [0.03s], num tris: 166
+[2023.10.23-17.11.26:076][520]LogStaticMesh: Fallback 4/7 [0.03s], num tris: 128
+[2023.10.23-17.11.26:105][523]LogStaticMesh: Fallback 5/7 [0.03s], num tris: 114
+[2023.10.23-17.11.26:136][524]LogStaticMesh: Fallback 6/7 [0.03s], num tris: 64
+[2023.10.23-17.11.26:139][525]LogStaticMesh: ConstrainClusters:
+[2023.10.23-17.11.26:139][525]LogStaticMesh:   Input: 11 Clusters, 1338 Triangles and 2577 Vertices
+[2023.10.23-17.11.26:139][525]LogStaticMesh:   Output without splits: 11 Clusters, 1338 Triangles and 2577 Vertices
+[2023.10.23-17.11.26:139][525]LogStaticMesh:   Output with splits: 13 Clusters, 1338 Triangles and 2579 Vertices
+[2023.10.23-17.11.26:139][525]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 13, Slow Path Clusters: 0, 1 Material: 9, 2 Materials: 4, 3 Materials: 0, At Least 4 Materials: 0
+[2023.10.23-17.11.26:140][525]LogStaticMesh: WritePages:
+[2023.10.23-17.11.26:140][525]LogStaticMesh:   Root: GPU size: 29764 bytes. 1 Pages. 29764.000 bytes per page (90.833% utilization).
+[2023.10.23-17.11.26:140][525]LogStaticMesh:   Streaming: GPU size: 9292 bytes. 1 Pages (1 with relative encoding). 9292.000 bytes per page (7.089% utilization).
+[2023.10.23-17.11.26:140][525]LogStaticMesh:   Page data disk size: 29896 bytes. Fixup data size: 192 bytes.
+[2023.10.23-17.11.26:140][525]LogStaticMesh:   Total GPU size: 39056 bytes, Total disk size: 30088 bytes.
+[2023.10.23-17.11.26:140][525]LogStaticMesh: Encode [0.00s]
+[2023.10.23-17.11.26:140][525]LogStaticMesh: Nanite build [0.21s]
+
+[2023.10.23-17.11.26:143][525]LogStaticMesh: Built static mesh [0.24s] /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a
+[2023.10.23-17.11.26:369][528]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a
+[2023.10.23-17.11.26:369][528]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a
+[2023.10.23-17.11.26:369][528]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a as actor: StaticMeshActor /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.StaticMeshActor_22
+[2023.10.23-17.11.27:086][560]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a
+[2023.10.23-17.11.27:086][560]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a
+[2023.10.23-17.11.27:087][560]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a as actor: StaticMeshActor /Game/Map/ProceduralMap/Map3.Map3:PersistentLevel.StaticMeshActor_23
+[2023.10.23-17.12.14:854][ 86]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a
+[2023.10.23-17.12.14:897][ 86]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-17.12.14:897][ 86]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-17.12.15:743][ 86]LogViewport: Scene viewport resized to 1405x894, mode Windowed.
+[2023.10.23-17.12.28:791][527]LogStaticMesh: Display: Building static mesh SM_Doorway_01a...
+[2023.10.23-17.12.28:808][527]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a) ...
+[2023.10.23-17.12.28:820][527]LogStaticMesh: Adjacency [0.00s], tris: 582, UVs 2, Color
+[2023.10.23-17.12.28:821][527]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.10.23-17.12.28:821][527]LogStaticMesh: Leaves [0.00s]
+[2023.10.23-17.12.28:851][527]LogStaticMesh: Reduce [0.03s]
+[2023.10.23-17.12.28:857][527]LogStaticMesh: Fallback 0/7 [0.01s], num tris: 256
+[2023.10.23-17.12.28:879][527]LogStaticMesh: Fallback 1/7 [0.02s], num tris: 216
+[2023.10.23-17.12.28:901][527]LogStaticMesh: Fallback 2/7 [0.02s], num tris: 192
+[2023.10.23-17.12.28:925][527]LogStaticMesh: Fallback 3/7 [0.02s], num tris: 166
+[2023.10.23-17.12.28:948][527]LogStaticMesh: Fallback 4/7 [0.02s], num tris: 128
+[2023.10.23-17.12.28:972][527]LogStaticMesh: Fallback 5/7 [0.02s], num tris: 114
+[2023.10.23-17.12.28:998][527]LogStaticMesh: Fallback 6/7 [0.03s], num tris: 64
+[2023.10.23-17.12.29:000][527]LogStaticMesh: ConstrainClusters:
+[2023.10.23-17.12.29:000][527]LogStaticMesh:   Input: 11 Clusters, 1338 Triangles and 2576 Vertices
+[2023.10.23-17.12.29:000][527]LogStaticMesh:   Output without splits: 11 Clusters, 1338 Triangles and 2576 Vertices
+[2023.10.23-17.12.29:000][527]LogStaticMesh:   Output with splits: 13 Clusters, 1338 Triangles and 2578 Vertices
+[2023.10.23-17.12.29:000][527]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 13, Slow Path Clusters: 0, 1 Material: 9, 2 Materials: 4, 3 Materials: 0, At Least 4 Materials: 0
+[2023.10.23-17.12.29:002][527]LogStaticMesh: WritePages:
+[2023.10.23-17.12.29:002][527]LogStaticMesh:   Root: GPU size: 29668 bytes. 1 Pages. 29668.000 bytes per page (90.540% utilization).
+[2023.10.23-17.12.29:002][527]LogStaticMesh:   Streaming: GPU size: 9292 bytes. 1 Pages (1 with relative encoding). 9292.000 bytes per page (7.089% utilization).
+[2023.10.23-17.12.29:002][527]LogStaticMesh:   Page data disk size: 29748 bytes. Fixup data size: 192 bytes.
+[2023.10.23-17.12.29:002][527]LogStaticMesh:   Total GPU size: 38960 bytes, Total disk size: 29940 bytes.
+[2023.10.23-17.12.29:002][527]LogStaticMesh: Encode [0.00s]
+[2023.10.23-17.12.29:002][527]LogStaticMesh: Nanite build [0.18s]
+
+[2023.10.23-17.12.29:005][527]LogStaticMesh: Built static mesh [0.21s] /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a
+[2023.10.23-17.12.29:006][527]LogStaticMesh: Warning: SM_Doorway_01a has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.10.23-17.12.29:006][527]LogStaticMesh: Warning: SM_Doorway_01a has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2023.10.23-17.12.29:006][527]LogStaticMesh: Warning: SM_Doorway_01a has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.10.23-17.12.29:007][527]LogMaterial: Display: Material /Game/Assets/Baazar/Environnement/Assets/Material/Tileable/M_Brick_01a.M_Brick_01a needed to have new flag set bUsedWithNanite !
+[2023.10.23-17.12.29:007][527]LogMaterial: Display: Material /Engine/Transient.M_Brick_01a needed to have new flag set bUsedWithNanite !
+[2023.10.23-17.12.29:203][527]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.23-17.12.29:203][527]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.23-17.12.29:203][527]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.23-17.12.29:203][527]MaterialEditorStats: Shader Count: 0
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: ================================================
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Total job queries 268, among them cache hits 131 (48.88%)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Tracking 124 distinct input hashes that result in 89 distinct outputs (71.77%)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: RAM used: 2,76 MiB of 1,60 GiB budget. Usage: 0.17%
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Shaders Compiled: 51
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Jobs assigned 64, completed 51 (79.69%)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Average time worker was idle: 73.65 s
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.63 s
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Job execution time: average 0.52 s, max 0.97 s
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 1.14
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Shader code size: average 38,597 KiB, min 8,062 KiB, max 62,508 KiB
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.83 s
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Jobs were issued in 58 batches (only local compilation was used), average 1.10 jobs/batch
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Average processing rate: 6.51 jobs/sec
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Total thread time: 19,232 s
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Total thread preprocess time: 2,021 s
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Percentage time preprocessing: 10.51%
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Effective parallelization: 2.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.69 sec, max 0.69 sec, min 0.69 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 0.66 sec, max 0.71 sec, min 0.57 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 17.22% of total time (compiled    5 times, average 0.66 sec, max 0.71 sec, min 0.57 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.20% of total time (compiled    7 times, average 0.36 sec, max 0.46 sec, min 0.30 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.84% of total time (compiled    7 times, average 0.35 sec, max 0.48 sec, min 0.26 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.58% of total time (compiled    5 times, average 0.37 sec, max 0.43 sec, min 0.30 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.19% of total time (compiled    5 times, average 0.16 sec, max 0.18 sec, min 0.14 sec)
+[2023.10.23-17.12.29:207][527]LogShaderCompilers: Display: ================================================
+[2023.10.23-17.12.29:367][528]MaterialEditorStats: Base pass shader: 205 instructions
+[2023.10.23-17.12.29:367][528]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2023.10.23-17.12.29:367][528]MaterialEditorStats: MaxSampler: 254 instructions
+[2023.10.23-17.12.29:367][528]MaterialEditorStats: Texture samplers: 6/16
+[2023.10.23-17.12.29:367][528]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.10.23-17.12.29:367][528]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.23-17.12.29:367][528]MaterialEditorStats: Shader Count: 20
+[2023.10.23-17.12.53:683][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-17.12.53:802][322]LogSavePackage: Moving output files for package: /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a
+[2023.10.23-17.12.53:803][322]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/SM_Doorway_01aBF7509B44E4E0FA7481C42B3E2A5727D.tmp' to 'E:/Nomad/Nomad/Content/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.uasset'
+[2023.10.23-17.12.53:812][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 1.68 sec)
+[2023.10.23-17.12.53:813][322]AssetCheck: New page: Asset Save: SM_Doorway_01a
+[2023.10.23-17.12.53:813][322]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Assets/Baazar/Environnement/Assets/Mesh/Architecture/SM_Doorway_01a.SM_Doorway_01a
+[2023.10.23-17.13.37:261][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.10.23-17.13.37:268][535]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-17.13.37:332][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map3" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-17.13.37:358][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.10.23-17.13.37:411][535]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map3
+[2023.10.23-17.13.37:411][535]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map37A4A1E6B446140578801F0A223456E57.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap'
+[2023.10.23-17.13.37:420][535]LogFileHelpers: Saving map 'Map3' took 0.088
+[2023.10.23-17.13.37:422][535]LogSavePackage: Moving output files for package: /Game/Assets/Baazar/Environnement/Assets/Material/Tileable/M_Brick_01a
+[2023.10.23-17.13.37:423][535]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/M_Brick_01aF501480149CBBD57E27B10B29E2F3117.tmp' to 'E:/Nomad/Nomad/Content/Assets/Baazar/Environnement/Assets/Material/Tileable/M_Brick_01a.uasset'
+[2023.10.23-17.13.37:431][535]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 1.85 sec)
+[2023.10.23-17.13.37:433][535]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.23-17.13.37:433][535]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-17.13.37:433][535]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Assets/Baazar/Environnement/Assets/Material/Tileable/M_Brick_01a.M_Brick_01a
+[2023.10.23-17.13.39:323][636]Cmd: DELETE
+[2023.10.23-17.13.39:323][636]Cmd: ACTOR DELETE
+[2023.10.23-17.13.39:327][636]LogEditorActor: Deleted Actor: DirectionalLight
+[2023.10.23-17.13.39:333][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.10.23-17.13.39:335][636]LogEditorActor: Deleted 1 Actors (0.011 secs)
