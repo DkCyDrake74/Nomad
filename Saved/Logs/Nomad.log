@@ -1363,3 +1363,20 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.23-11.35.30:393][768]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map1.Map1
 [2023.10.23-11.35.30:393][768]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map1.Map1
 [2023.10.23-11.35.35:544][ 97]LogSlate: Window 'Remove Level' being destroyed
+[2023.10.23-11.35.46:406][269]LogDerivedDataCache: C:/Users/axelr/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:30.237 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 15936 files in 18926 folders with total size 1932 MiB.
+[2023.10.23-11.35.57:300][455]LogSlate: Window 'Remove Level' being destroyed
+[2023.10.23-11.35.57:307][455]LogWorld: UWorld::CleanupWorld for Test01, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.35.57:307][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.35.57:313][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.10.23-11.35.57:317][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.10.23-11.35.57:317][455]MapCheck: New page: Map Check
+[2023.10.23-11.35.57:317][455]LightingResults: New page: Lighting Build
+[2023.10.23-11.35.57:320][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.10.23-11.35.57:324][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.10.23-11.36.06:434][715]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.07:014][766]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map2.Map2
+[2023.10.23-11.36.07:014][766]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map2.Map2
+[2023.10.23-11.36.07:524][814]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.10.23-11.36.21:456][184]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.36.21:542][185]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-11.36.21:542][185]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map3.Map3
