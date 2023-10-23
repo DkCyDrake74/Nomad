@@ -1220,3 +1220,19 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.23-11.24.06:617][115]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms
 [2023.10.23-11.24.06:617][115]AssetCheck: New page: Asset Save: Map2
 [2023.10.23-11.24.06:617][115]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map2.Map2
+[2023.10.23-11.24.20:400][422]LogContentBrowser: Deferred new asset file creation: Map3
+[2023.10.23-11.24.20:403][422]LogContentBrowser: Creating deferred item: Map3
+[2023.10.23-11.24.20:435][423]LogContentBrowser: Renaming the item being created (Deferred Item: Map3).
+[2023.10.23-11.24.20:824][455]LogContentBrowser: Attempting asset rename: Map3 -> Map3
+[2023.10.23-11.24.20:826][455]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.24.20:837][455]LogContentBrowser: End creating deferred item Map3
+[2023.10.23-11.24.22:408][582]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-11.24.22:458][582]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.24.22:458][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map3" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-11.24.22:462][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.10.23-11.24.22:470][582]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map3
+[2023.10.23-11.24.22:470][582]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map3009D51974C4456B0BC94FE8C66162D8E.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map3.umap'
+[2023.10.23-11.24.22:476][582]LogFileHelpers: Saving map 'Map3' took 0.019
+[2023.10.23-11.24.22:482][582]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 172 ms)
+[2023.10.23-11.24.22:483][582]AssetCheck: New page: Asset Save: Map3
+[2023.10.23-11.24.22:483][582]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map3.Map3
