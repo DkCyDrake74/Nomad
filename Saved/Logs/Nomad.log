@@ -1327,3 +1327,39 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.23-11.34.52:792][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 208 ms)
 [2023.10.23-11.34.52:793][228]AssetCheck: New page: Asset Save: Map3
 [2023.10.23-11.34.52:793][228]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map3.Map3
+[2023.10.23-11.35.21:645][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.10.23-11.35.21:710][ 36]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.35.21:711][ 36]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/MainMap/MainMap.MainMap
+[2023.10.23-11.35.21:711][ 36]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/Map/MainMap/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-11.35.21:711][ 36]LightingResults: New page: Lighting Build
+[2023.10.23-11.35.21:711][ 36]LoadErrors: New page: Loading map: MainMap.umap
+[2023.10.23-11.35.21:730][ 36]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.35.21:730][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.35.21:730][ 36]MapCheck: New page: Map Check
+[2023.10.23-11.35.21:730][ 36]LightingResults: New page: Lighting Build
+[2023.10.23-11.35.21:734][ 36]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-11.35.21:735][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.10.23-11.35.21:738][ 36]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-11.35.21:738][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-11.35.21:741][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.23-11.35.21:745][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.10.23-11.35.21:749][ 36]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMap'.
+[2023.10.23-11.35.21:749][ 36]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.35.21:749][ 36]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.35.21:750][ 36]LogAIModule: Creating AISystem for world MainMap
+[2023.10.23-11.35.21:751][ 36]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/EndlessWorld/Demo/Test01) is flushing async loading
+[2023.10.23-11.35.21:751][ 36]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.10.23-11.35.21:834][ 36]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-11.35.21:843][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.10.23-11.35.21:848][ 36]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-11.35.21:848][ 36]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,093ms to complete.
+[2023.10.23-11.35.28:120][522]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.35.28:188][525]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.23-11.35.28:199][525]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.35.28:199][525]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.35.28:205][525]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.23-11.35.29:020][613]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.35.29:020][613]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.35.30:393][768]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.35.30:393][768]LogActorFactory: Actor Factory attempting to spawn World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.35.35:544][ 97]LogSlate: Window 'Remove Level' being destroyed
