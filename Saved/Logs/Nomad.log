@@ -26407,3 +26407,1160 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2023.10.23-22.46.50:981][200]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ThirdPerson/Anim/Jumping_Up.Jumping_Up
 [2023.10.23-22.46.51:014][200]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ThirdPerson/Anim/Jumping_Up.Jumping_Up
 [2023.10.23-22.46.51:047][200]LogAnimationCompression: Display: Storing compressed animation data for /Game/ThirdPerson/Anim/Jumping_Up.Jumping_Up, at AnimationSequence/84b648baeb67ff49dde5d20f41d7d3cd186f96b3
+[2023.10.23-22.47.52:130][266]BlueprintLog: New page: Compile AB_Player
+[2023.10.23-22.47.52:178][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2023.10.23-22.48.08:548][  6]BlueprintLog: New page: Compile AB_Player
+[2023.10.23-22.48.08:595][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.10.23-22.48.27:008][704]BlueprintLog: New page: Compile AB_Player
+[2023.10.23-22.48.27:014][704]LogBlueprint: Warning: [AssetLog] E:\Nomad\Nomad\Content\Player\AB_Player.uasset: [Compiler] BP_PlayerWeapon to Jumping_Up  will never be taken, please connect something to  Can Enter Transition
+[2023.10.23-22.48.27:055][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.10.23-22.48.32:409][916]BlueprintLog: New page: Compile AB_Player
+[2023.10.23-22.48.32:460][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.10.23-22.48.39:268][188]BlueprintLog: New page: Compile AB_Player
+[2023.10.23-22.48.39:274][188]LogBlueprint: Warning: [AssetLog] E:\Nomad\Nomad\Content\Player\AB_Player.uasset: [Compiler] Jumping_Up to BP_Player  will never be taken, please connect something to  Can Enter Transition
+[2023.10.23-22.48.39:315][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.10.23-22.49.02:262][ 77]BlueprintLog: New page: Compile AB_Player
+[2023.10.23-22.49.02:270][ 77]LogBlueprint: Warning: [AssetLog] E:\Nomad\Nomad\Content\Player\AB_Player.uasset: [Compiler] Jumping_Up to BP_PlayerWeapon  will never be taken, please connect something to  Can Enter Transition
+[2023.10.23-22.49.02:316][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.10.23-22.49.13:481][510]BlueprintLog: New page: Compile AB_Player
+[2023.10.23-22.49.13:538][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2023.10.23-22.49.57:567][596]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.23-22.49.57:622][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.10.23-22.50.02:168][807]LogEditorTransaction: Undo Move Node
+[2023.10.23-22.50.02:550][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.10.23-22.50.02:556][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.10.23-22.50.52:600][213]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.23-22.50.52:653][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.10.23-22.50.55:722][361]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.23-22.50.55:730][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.23-22.50.55:730][361]PIE: New page: PIE session: MainMap (24 oct. 2023 à 02:50:55)
+[2023.10.23-22.50.55:730][361]LogPlayLevel: Display: Creating online subsystem for client :Context_59
+[2023.10.23-22.50.55:733][361]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2023.10.23-22.50.55:748][362]LogPlayLevel: Creating play world package: /Game/Map/MainMap/UEDPIE_0_MainMap
+[2023.10.23-22.50.55:762][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014764s)
+[2023.10.23-22.50.55:762][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap/MainMap.MainMap to /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap (0.014810s)
+[2023.10.23-22.50.55:785][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.10.23-22.50.55:787][362]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-22.50.55:788][362]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-22.50.55:788][362]LogAIModule: Creating AISystem for world MainMap
+[2023.10.23-22.50.55:788][362]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2023.10.23-22.50.55:788][362]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.10.23-22.50.55:788][362]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.23-22.50.55:788][362]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.23-22.50.55:788][362]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.23-22.50.55:788][362]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.23-22.50.55:788][362]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.23-22.50.55:788][362]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.23-22.50.55:788][362]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.23-22.50.55:788][362]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.23-22.50.55:789][362]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.23-22.50.55:789][362]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.23-22.50.55:789][362]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.23-22.50.55:791][362]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.23-22.50.55:820][362]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Razer USB Sound Card)
+[2023.10.23-22.50.55:820][362]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.23-22.50.55:820][362]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.23-22.50.55:820][362]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.23-22.50.55:821][362]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.10.23-22.50.55:821][362]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.10.23-22.50.55:824][362]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.10.23-22.50.55:824][362]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.10.23-22.50.55:824][362]LogInit: FAudioDevice initialized with ID 20.
+[2023.10.23-22.50.55:824][362]LogAudio: Display: Audio Device (ID: 20) registered with world 'MainMap'.
+[2023.10.23-22.50.55:824][362]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.10.23-22.50.55:827][362]LogLoad: Game class is 'Main_GameMode_C'
+[2023.10.23-22.50.55:830][362]LogWorld: Bringing World /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.10.24-00.50.55
+[2023.10.23-22.50.55:830][362]LogWorld: Bringing up level for play took: 0.002909
+[2023.10.23-22.50.55:832][362]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.10.23-22.50.55:832][362]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.10.23-22.50.55:832][362]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.10.23-22.50.55:832][362]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2023.10.23-22.50.55:832][362]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.10.23-22.50.55:832][362]LogNet: GameNetDriver IpNetDriver_18 IpNetDriver listening on port 17777
+[2023.10.23-22.50.55:842][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetStreamingLevel_ReturnValue". Node:  Create Instance Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.50.55:842][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set LevelTransform Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.50.55:842][362]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LevelTransform Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.50.55:842][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set bShouldBlockOnLoad Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.50.55:842][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set bShouldBlockOnUnload Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.50.55:843][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeLoaded Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-22.50.55:843][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeVisible Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-22.50.55:850][362]PIE: Server logged in
+[2023.10.23-22.50.55:851][362]PIE: Play in editor total start time 0,121 seconds.
+[2023.10.23-22.50.55:852][362]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=269.220
+[2023.10.23-22.50.55:902][363]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=233.486
+[2023.10.23-22.50.56:207][364]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:787][365]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:827][366]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:857][366]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-8x3x0 took (less than) 28.85 ms
+[2023.10.23-22.50.56:867][367]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:889][368]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:907][369]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:925][370]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:943][371]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:970][372]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.56:991][373]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:012][374]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:032][375]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:047][376]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:086][377]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:105][378]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:126][379]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:158][380]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:176][381]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:193][382]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:206][383]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.50.57:272][384]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=4.827 Y=0.834 Z=192.150
+[2023.10.23-22.50.57:290][385]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=7.024 Y=1.215 Z=192.150
+[2023.10.23-22.50.57:308][386]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=9.697 Y=1.684 Z=192.150
+[2023.10.23-22.50.57:338][387]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=15.322 Y=2.707 Z=192.150
+[2023.10.23-22.50.57:359][387]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-8x-3x0 took (less than) 20.66 ms
+[2023.10.23-22.50.57:371][388]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=23.373 Y=4.247 Z=192.150
+[2023.10.23-22.50.57:390][389]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=28.784 Y=5.291 Z=192.150
+[2023.10.23-22.50.57:411][390]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=35.247 Y=6.525 Z=192.150
+[2023.10.23-22.50.57:434][391]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=42.399 Y=7.847 Z=192.150
+[2023.10.23-22.50.57:467][392]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=55.411 Y=10.089 Z=192.150
+[2023.10.23-22.50.57:483][393]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=62.169 Y=11.220 Z=192.150
+[2023.10.23-22.50.57:495][394]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=67.132 Y=12.047 Z=215.691
+[2023.10.23-22.50.57:524][395]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=79.866 Y=14.148 Z=270.669
+[2023.10.23-22.50.57:538][396]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=87.322 Y=15.366 Z=299.847
+[2023.10.23-22.50.57:550][397]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=93.403 Y=16.353 Z=322.258
+[2023.10.23-22.50.57:567][398]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=101.306 Y=17.629 Z=349.750
+[2023.10.23-22.50.57:593][398]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-8x1x0 took (less than) 24.68 ms
+[2023.10.23-22.50.57:603][399]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=122.314 Y=20.985 Z=415.319
+[2023.10.23-22.50.57:616][400]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=130.710 Y=22.315 Z=438.970
+[2023.10.23-22.50.57:628][401]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=137.547 Y=23.394 Z=457.308
+[2023.10.23-22.50.57:656][402]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=155.507 Y=26.212 Z=502.006
+[2023.10.23-22.50.57:672][403]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=166.437 Y=27.918 Z=527.041
+[2023.10.23-22.50.57:695][404]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=182.959 Y=30.484 Z=562.190
+[2023.10.23-22.50.57:727][405]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=206.156 Y=34.065 Z=606.823
+[2023.10.23-22.50.57:747][406]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=222.427 Y=36.563 Z=635.296
+[2023.10.23-22.50.57:774][407]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=244.295 Y=39.899 Z=670.389
+[2023.10.23-22.50.57:787][408]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=255.415 Y=41.588 Z=686.983
+[2023.10.23-22.50.57:848][409]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=311.516 Y=50.039 Z=759.890
+[2023.10.23-22.50.57:867][410]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=329.986 Y=52.801 Z=780.510
+[2023.10.23-22.50.57:881][411]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=343.802 Y=54.860 Z=794.990
+[2023.10.23-22.50.57:895][412]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=355.800 Y=56.645 Z=806.950
+[2023.10.23-22.50.57:923][413]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=386.707 Y=61.227 Z=835.340
+[2023.10.23-22.50.57:938][414]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=402.377 Y=63.542 Z=848.505
+[2023.10.23-22.50.57:950][415]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=416.281 Y=65.592 Z=859.545
+[2023.10.23-22.50.57:989][416]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=460.454 Y=72.084 Z=890.968
+[2023.10.23-22.50.58:003][417]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=476.941 Y=74.497 Z=901.388
+[2023.10.23-22.50.58:015][418]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=492.297 Y=76.740 Z=910.507
+[2023.10.23-22.50.58:029][419]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=508.073 Y=79.039 Z=919.315
+[2023.10.23-22.50.58:067][420]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=554.916 Y=85.834 Z=942.362
+[2023.10.23-22.50.58:082][421]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=574.757 Y=88.699 Z=950.830
+[2023.10.23-22.50.58:096][422]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=592.575 Y=91.265 Z=957.827
+[2023.10.23-22.50.58:107][423]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=607.983 Y=93.479 Z=963.435
+[2023.10.23-22.50.58:148][424]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=663.682 Y=101.452 Z=980.525
+[2023.10.23-22.50.58:161][425]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=683.652 Y=104.298 Z=985.522
+[2023.10.23-22.50.58:174][426]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=700.720 Y=106.726 Z=989.353
+[2023.10.23-22.50.58:184][427]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=716.106 Y=108.911 Z=992.472
+[2023.10.23-22.50.58:200][428]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=735.430 Y=111.648 Z=995.956
+[2023.10.23-22.50.58:221][428]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-9x-4x0 took (less than) 21.00 ms
+[2023.10.23-22.50.58:231][429]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=785.847 Y=118.754 Z=1002.903
+[2023.10.23-22.50.58:249][430]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=812.963 Y=122.550 Z=1005.437
+[2023.10.23-22.50.58:265][431]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=834.941 Y=125.609 Z=1006.913
+[2023.10.23-22.50.58:281][432]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=862.911 Y=129.471 Z=1008.077
+[2023.10.23-22.50.58:311][433]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=909.168 Y=135.758 Z=1008.341
+[2023.10.23-22.50.58:324][434]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=930.928 Y=138.666 Z=1007.789
+[2023.10.23-22.50.58:364][435]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=997.792 Y=147.345 Z=1003.574
+[2023.10.23-22.50.58:380][436]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1026.724 Y=150.963 Z=1000.643
+[2023.10.23-22.50.58:393][437]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1049.015 Y=153.669 Z=997.954
+[2023.10.23-22.50.58:410][438]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1080.231 Y=157.313 Z=993.583
+[2023.10.23-22.50.58:422][439]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1102.494 Y=159.793 Z=990.048
+[2023.10.23-22.50.58:437][440]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1127.761 Y=162.466 Z=985.627
+[2023.10.23-22.50.58:458][441]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1162.042 Y=165.828 Z=978.952
+[2023.10.23-22.50.58:490][442]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1226.706 Y=171.256 Z=964.322
+[2023.10.23-22.50.58:509][443]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1263.186 Y=173.764 Z=954.935
+[2023.10.23-22.50.58:522][444]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1288.634 Y=175.261 Z=947.914
+[2023.10.23-22.50.58:535][445]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1311.993 Y=176.457 Z=941.137
+[2023.10.23-22.50.58:564][446]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1372.161 Y=178.767 Z=922.248
+[2023.10.23-22.50.58:581][447]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1405.988 Y=179.594 Z=910.753
+[2023.10.23-22.50.58:595][448]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1430.956 Y=179.994 Z=901.875
+[2023.10.23-22.50.58:619][449]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1481.654 Y=180.270 Z=882.853
+[2023.10.23-22.50.58:633][450]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1510.610 Y=180.114 Z=871.405
+[2023.10.23-22.50.58:645][451]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1534.533 Y=179.817 Z=861.634
+[2023.10.23-22.50.58:675][452]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1597.334 Y=178.335 Z=834.678
+[2023.10.23-22.50.58:690][453]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1626.239 Y=177.320 Z=821.652
+[2023.10.23-22.50.58:704][454]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1653.496 Y=176.176 Z=809.021
+[2023.10.23-22.50.58:717][455]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1681.722 Y=174.804 Z=795.592
+[2023.10.23-22.50.58:740][455]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-8x0x0 took (less than) 22.32 ms
+[2023.10.23-22.50.58:749][456]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1754.354 Y=170.421 Z=759.452
+[2023.10.23-22.50.58:764][457]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1783.939 Y=168.391 Z=743.970
+[2023.10.23-22.50.58:777][458]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1810.209 Y=166.588 Z=729.699
+[2023.10.23-22.50.58:805][459]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1872.361 Y=162.324 Z=693.897
+[2023.10.23-22.50.58:823][460]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1904.980 Y=160.086 Z=673.911
+[2023.10.23-22.50.58:836][461]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1931.240 Y=158.285 Z=657.197
+[2023.10.23-22.50.58:864][462]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1987.891 Y=154.398 Z=619.164
+[2023.10.23-22.50.58:884][463]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2028.026 Y=151.644 Z=590.508
+[2023.10.23-22.50.58:904][464]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2064.558 Y=149.138 Z=563.125
+[2023.10.23-22.50.58:925][465]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2104.367 Y=146.407 Z=531.809
+[2023.10.23-22.50.58:944][466]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2143.209 Y=143.742 Z=499.698
+[2023.10.23-22.50.58:962][467]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2178.093 Y=141.348 Z=469.484
+[2023.10.23-22.50.58:975][468]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2200.120 Y=139.837 Z=449.709
+[2023.10.23-22.50.59:004][469]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2253.522 Y=136.173 Z=399.406
+[2023.10.23-22.50.59:018][470]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2278.166 Y=134.483 Z=375.012
+[2023.10.23-22.50.59:030][471]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2297.865 Y=133.131 Z=354.951
+[2023.10.23-22.50.59:052][471]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x2x0 took (less than) 21.54 ms
+[2023.10.23-22.50.59:062][472]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2354.399 Y=129.252 Z=294.467
+[2023.10.23-22.50.59:078][473]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2379.619 Y=127.522 Z=266.017
+[2023.10.23-22.50.59:091][474]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2399.822 Y=126.136 Z=242.537
+[2023.10.23-22.50.59:106][475]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2423.005 Y=124.545 Z=214.810
+[2023.10.23-22.50.59:131][475]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x4x0 took (less than) 24.18 ms
+[2023.10.23-22.50.59:143][476]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2481.443 Y=120.536 Z=192.150
+[2023.10.23-22.50.59:161][477]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2509.957 Y=118.580 Z=192.150
+[2023.10.23-22.50.59:175][478]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2528.974 Y=117.275 Z=192.150
+[2023.10.23-22.50.59:187][479]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2545.081 Y=116.170 Z=192.150
+[2023.10.23-22.50.59:218][480]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2588.977 Y=113.158 Z=192.150
+[2023.10.23-22.50.59:236][481]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2612.039 Y=111.576 Z=192.150
+[2023.10.23-22.50.59:248][482]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2628.965 Y=110.415 Z=192.150
+[2023.10.23-22.50.59:285][483]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2675.053 Y=107.253 Z=192.150
+[2023.10.23-22.50.59:299][484]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2692.082 Y=106.085 Z=192.150
+[2023.10.23-22.50.59:313][485]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2706.825 Y=105.073 Z=192.150
+[2023.10.23-22.50.59:325][486]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2720.476 Y=104.136 Z=192.150
+[2023.10.23-22.50.59:356][487]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2756.044 Y=101.696 Z=254.031
+[2023.10.23-22.50.59:373][488]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2774.593 Y=100.424 Z=286.367
+[2023.10.23-22.50.59:385][489]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2788.940 Y=99.439 Z=311.410
+[2023.10.23-22.50.59:398][490]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2800.935 Y=98.616 Z=332.369
+[2023.10.23-22.50.59:425][490]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x-6x0 took (less than) 25.54 ms
+[2023.10.23-22.50.59:435][491]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2838.991 Y=96.005 Z=399.022
+[2023.10.23-22.50.59:451][492]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2855.327 Y=94.885 Z=427.711
+[2023.10.23-22.50.59:467][493]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2869.309 Y=93.925 Z=452.307
+[2023.10.23-22.50.59:478][494]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2880.071 Y=93.187 Z=471.267
+[2023.10.23-22.50.59:527][495]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2923.342 Y=90.218 Z=547.775
+[2023.10.23-22.50.59:545][496]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2938.627 Y=89.170 Z=574.921
+[2023.10.23-22.50.59:561][497]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2949.894 Y=88.396 Z=594.979
+[2023.10.23-22.50.59:578][498]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2964.281 Y=87.409 Z=620.653
+[2023.10.23-22.50.59:589][499]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2972.958 Y=86.814 Z=636.175
+[2023.10.23-22.50.59:609][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2987.645 Y=85.806 Z=662.518
+[2023.10.23-22.50.59:630][501]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3001.773 Y=84.837 Z=687.953
+[2023.10.23-22.50.59:656][501]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x1x0 took (less than) 25.80 ms
+[2023.10.23-22.50.59:666][502]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3026.869 Y=83.115 Z=733.394
+[2023.10.23-22.50.59:682][503]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3035.842 Y=82.500 Z=749.739
+[2023.10.23-22.50.59:694][504]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3043.728 Y=81.959 Z=764.153
+[2023.10.23-22.50.59:723][505]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3060.680 Y=80.796 Z=795.313
+[2023.10.23-22.50.59:738][506]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3068.731 Y=80.243 Z=810.212
+[2023.10.23-22.50.59:756][507]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3078.043 Y=79.604 Z=827.537
+[2023.10.23-22.50.59:770][508]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3084.312 Y=79.174 Z=839.266
+[2023.10.23-22.50.59:800][509]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3098.861 Y=78.176 Z=866.731
+[2023.10.23-22.50.59:817][510]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3105.598 Y=77.714 Z=879.588
+[2023.10.23-22.50.59:829][511]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3110.802 Y=77.357 Z=889.593
+[2023.10.23-22.50.59:860][512]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3122.521 Y=76.553 Z=912.426
+[2023.10.23-22.50.59:876][513]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3127.735 Y=76.195 Z=922.754
+[2023.10.23-22.50.59:890][514]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3131.869 Y=75.911 Z=931.039
+[2023.10.23-22.50.59:903][515]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3136.046 Y=75.625 Z=939.516
+[2023.10.23-22.50.59:950][516]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3147.734 Y=74.823 Z=964.076
+[2023.10.23-22.50.59:967][517]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3151.189 Y=74.586 Z=971.718
+[2023.10.23-22.50.59:983][518]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3154.028 Y=74.391 Z=978.227
+[2023.10.23-22.50.59:996][519]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3155.933 Y=74.260 Z=982.765
+[2023.10.23-22.51.00:035][520]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3160.566 Y=73.943 Z=994.959
+[2023.10.23-22.51.00:050][521]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3161.666 Y=73.867 Z=998.442
+[2023.10.23-22.51.00:063][522]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3162.399 Y=73.817 Z=1001.191
+[2023.10.23-22.51.00:079][523]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3162.828 Y=73.787 Z=1003.285
+[2023.10.23-22.51.00:105][524]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=1006.940
+[2023.10.23-22.51.00:120][525]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=1007.973
+[2023.10.23-22.51.00:135][526]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=1008.437
+[2023.10.23-22.51.00:147][527]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=1008.415
+[2023.10.23-22.51.00:168][528]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=1007.663
+[2023.10.23-22.51.00:191][528]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x-5x0 took (less than) 22.15 ms
+[2023.10.23-22.51.00:201][529]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=1003.941
+[2023.10.23-22.51.00:218][530]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=1001.038
+[2023.10.23-22.51.00:232][531]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=998.190
+[2023.10.23-22.51.00:271][532]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=987.357
+[2023.10.23-22.51.00:285][533]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=982.676
+[2023.10.23-22.51.00:298][534]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=977.807
+[2023.10.23-22.51.00:312][535]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=972.844
+[2023.10.23-22.51.00:343][536]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=958.192
+[2023.10.23-22.51.00:357][537]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=950.836
+[2023.10.23-22.51.00:369][538]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=944.505
+[2023.10.23-22.51.00:386][539]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=935.186
+[2023.10.23-22.51.00:410][539]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x-6x0 took (less than) 23.18 ms
+[2023.10.23-22.51.00:420][540]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=912.302
+[2023.10.23-22.51.00:439][541]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=899.875
+[2023.10.23-22.51.00:458][542]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=886.669
+[2023.10.23-22.51.00:472][543]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=876.481
+[2023.10.23-22.51.00:502][544]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=849.139
+[2023.10.23-22.51.00:522][545]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=831.607
+[2023.10.23-22.51.00:540][546]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=815.264
+[2023.10.23-22.51.00:553][547]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=801.672
+[2023.10.23-22.51.00:584][548]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=766.775
+[2023.10.23-22.51.00:602][549]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=746.919
+[2023.10.23-22.51.00:618][550]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=729.742
+[2023.10.23-22.51.00:645][551]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=697.248
+[2023.10.23-22.51.00:660][552]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=677.604
+[2023.10.23-22.51.00:671][553]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=663.063
+[2023.10.23-22.51.00:688][554]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=641.472
+[2023.10.23-22.51.00:712][554]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x-1x0 took (less than) 22.40 ms
+[2023.10.23-22.51.00:722][555]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=593.910
+[2023.10.23-22.51.00:736][556]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=573.074
+[2023.10.23-22.51.00:750][557]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=556.272
+[2023.10.23-22.51.00:782][558]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=505.275
+[2023.10.23-22.51.00:799][559]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=476.375
+[2023.10.23-22.51.00:817][560]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=448.933
+[2023.10.23-22.51.00:829][561]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=428.852
+[2023.10.23-22.51.00:851][561]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-3x-3x0 took (less than) 21.11 ms
+[2023.10.23-22.51.00:861][562]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=372.042
+[2023.10.23-22.51.00:877][563]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.225 Y=73.760 Z=344.669
+[2023.10.23-22.51.00:897][564]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3163.099 Y=73.534 Z=310.713
+[2023.10.23-22.51.00:921][565]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3162.505 Y=72.471 Z=262.225
+[2023.10.23-22.51.00:935][566]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3161.939 Y=71.457 Z=233.412
+[2023.10.23-22.51.00:948][567]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3161.361 Y=70.422 Z=209.649
+[2023.10.23-22.51.00:968][568]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3160.151 Y=68.254 Z=192.150
+[2023.10.23-22.51.00:992][568]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x-3x0 took (less than) 23.65 ms
+[2023.10.23-22.51.01:005][569]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3156.461 Y=61.824 Z=192.150
+[2023.10.23-22.51.01:022][570]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3154.493 Y=58.616 Z=192.150
+[2023.10.23-22.51.01:037][571]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3152.451 Y=55.499 Z=192.150
+[2023.10.23-22.51.01:067][572]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3146.939 Y=48.138 Z=192.150
+[2023.10.23-22.51.01:085][573]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3143.331 Y=43.732 Z=192.150
+[2023.10.23-22.51.01:098][574]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3140.406 Y=40.376 Z=192.150
+[2023.10.23-22.51.01:128][575]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3132.156 Y=31.989 Z=192.150
+[2023.10.23-22.51.01:144][576]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3127.364 Y=27.341 Z=192.150
+[2023.10.23-22.51.01:155][577]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3123.600 Y=23.794 Z=192.150
+[2023.10.23-22.51.01:170][578]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3118.676 Y=19.289 Z=192.150
+[2023.10.23-22.51.01:219][579]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3099.116 Y=2.670 Z=192.150
+[2023.10.23-22.51.01:237][580]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3091.958 Y=-3.325 Z=192.150
+[2023.10.23-22.51.01:253][581]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3084.839 Y=-9.223 Z=192.150
+[2023.10.23-22.51.01:266][582]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3079.367 Y=-13.725 Z=192.150
+[2023.10.23-22.51.01:290][582]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x-8x0 took (less than) 22.32 ms
+[2023.10.23-22.51.01:301][583]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3061.338 Y=-28.307 Z=192.150
+[2023.10.23-22.51.01:315][584]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3053.602 Y=-34.535 Z=192.150
+[2023.10.23-22.51.01:332][585]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3045.108 Y=-41.344 Z=192.150
+[2023.10.23-22.51.01:347][586]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3036.764 Y=-48.010 Z=192.150
+[2023.10.23-22.51.01:399][587]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3005.381 Y=-72.914 Z=192.150
+[2023.10.23-22.51.01:414][588]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2995.859 Y=-80.444 Z=192.150
+[2023.10.23-22.51.01:428][589]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2987.034 Y=-87.415 Z=192.150
+[2023.10.23-22.51.01:440][590]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2978.370 Y=-94.252 Z=192.150
+[2023.10.23-22.51.01:482][591]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2947.804 Y=-118.304 Z=192.150
+[2023.10.23-22.51.01:501][592]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2935.062 Y=-128.329 Z=226.688
+[2023.10.23-22.51.01:517][593]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2923.196 Y=-137.665 Z=257.362
+[2023.10.23-22.51.01:535][594]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2908.195 Y=-149.466 Z=294.251
+[2023.10.23-22.51.01:548][595]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2897.680 Y=-157.736 Z=318.939
+[2023.10.23-22.51.01:568][596]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2882.489 Y=-169.685 Z=353.035
+[2023.10.23-22.51.01:589][597]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2865.136 Y=-183.331 Z=389.872
+[2023.10.23-22.51.01:615][597]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x3x0 took (less than) 24.38 ms
+[2023.10.23-22.51.01:625][598]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2833.287 Y=-208.374 Z=452.232
+[2023.10.23-22.51.01:641][599]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2819.824 Y=-218.958 Z=476.742
+[2023.10.23-22.51.01:654][600]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2807.549 Y=-228.609 Z=498.210
+[2023.10.23-22.51.01:685][601]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2777.434 Y=-252.281 Z=547.591
+[2023.10.23-22.51.01:704][602]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2759.202 Y=-266.611 Z=575.393
+[2023.10.23-22.51.01:718][603]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2745.819 Y=-277.129 Z=594.872
+[2023.10.23-22.51.01:734][604]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2731.011 Y=-288.767 Z=615.559
+[2023.10.23-22.51.01:757][604]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x7x0 took (less than) 21.68 ms
+[2023.10.23-22.51.01:769][605]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2693.572 Y=-318.187 Z=664.094
+[2023.10.23-22.51.01:787][606]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2673.838 Y=-333.693 Z=687.670
+[2023.10.23-22.51.01:802][607]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2658.625 Y=-345.646 Z=704.969
+[2023.10.23-22.51.01:831][608]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2626.006 Y=-371.273 Z=739.653
+[2023.10.23-22.51.01:847][609]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2607.497 Y=-385.814 Z=757.965
+[2023.10.23-22.51.01:860][610]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2592.534 Y=-397.569 Z=772.085
+[2023.10.23-22.51.01:891][611]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2555.439 Y=-426.708 Z=804.619
+[2023.10.23-22.51.01:909][612]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2534.199 Y=-443.391 Z=821.754
+[2023.10.23-22.51.01:921][613]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2518.658 Y=-455.598 Z=833.644
+[2023.10.23-22.51.01:938][614]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2497.825 Y=-471.960 Z=848.761
+[2023.10.23-22.51.01:988][615]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2433.658 Y=-522.366 Z=889.836
+[2023.10.23-22.51.02:006][616]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2410.404 Y=-540.635 Z=902.829
+[2023.10.23-22.51.02:019][617]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2391.494 Y=-555.492 Z=912.703
+[2023.10.23-22.51.02:035][618]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2370.255 Y=-572.179 Z=923.085
+[2023.10.23-22.51.02:055][619]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2344.990 Y=-592.031 Z=934.499
+[2023.10.23-22.51.02:082][619]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-4x3x0 took (less than) 26.64 ms
+[2023.10.23-22.51.02:094][620]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2286.708 Y=-637.828 Z=957.187
+[2023.10.23-22.51.02:111][621]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2262.923 Y=-656.520 Z=965.075
+[2023.10.23-22.51.02:122][622]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2245.317 Y=-670.356 Z=970.430
+[2023.10.23-22.51.02:139][623]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2221.988 Y=-688.691 Z=976.914
+[2023.10.23-22.51.02:189][624]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2144.859 Y=-749.312 Z=993.686
+[2023.10.23-22.51.02:207][625]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2117.541 Y=-770.785 Z=998.016
+[2023.10.23-22.51.02:220][626]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2095.781 Y=-787.890 Z=1000.899
+[2023.10.23-22.51.02:237][627]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2070.675 Y=-807.625 Z=1003.622
+[2023.10.23-22.51.02:283][628]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1992.444 Y=-869.126 Z=1008.195
+[2023.10.23-22.51.02:299][629]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1967.924 Y=-888.402 Z=1008.476
+[2023.10.23-22.51.02:313][630]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1944.224 Y=-907.036 Z=1008.252
+[2023.10.23-22.51.02:328][631]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1921.527 Y=-924.881 Z=1007.595
+[2023.10.23-22.51.02:360][632]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1864.898 Y=-969.396 Z=1004.140
+[2023.10.23-22.51.02:375][633]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1835.248 Y=-992.684 Z=1001.342
+[2023.10.23-22.51.02:391][634]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1811.735 Y=-1011.124 Z=998.662
+[2023.10.23-22.51.02:422][635]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1752.736 Y=-1057.246 Z=990.217
+[2023.10.23-22.51.02:439][636]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1720.811 Y=-1082.106 Z=984.668
+[2023.10.23-22.51.02:467][637]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1670.273 Y=-1121.320 Z=974.552
+[2023.10.23-22.51.02:482][638]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1640.061 Y=-1144.694 Z=967.754
+[2023.10.23-22.51.02:503][639]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1600.653 Y=-1175.138 Z=958.078
+[2023.10.23-22.51.02:557][640]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1495.502 Y=-1256.448 Z=927.972
+[2023.10.23-22.51.02:575][641]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1455.309 Y=-1287.659 Z=914.888
+[2023.10.23-22.51.02:593][642]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1421.558 Y=-1314.007 Z=903.243
+[2023.10.23-22.51.02:607][643]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1395.246 Y=-1334.648 Z=893.753
+[2023.10.23-22.51.02:641][644]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1325.844 Y=-1389.553 Z=867.029
+[2023.10.23-22.51.02:658][645]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1288.491 Y=-1419.413 Z=851.643
+[2023.10.23-22.51.02:674][646]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1258.563 Y=-1443.529 Z=838.810
+[2023.10.23-22.51.02:704][647]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1194.323 Y=-1495.947 Z=809.739
+[2023.10.23-22.51.02:720][648]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1158.377 Y=-1525.698 Z=792.564
+[2023.10.23-22.51.02:733][649]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1129.059 Y=-1550.215 Z=778.066
+[2023.10.23-22.51.02:750][650]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1096.922 Y=-1577.362 Z=761.666
+[2023.10.23-22.51.02:774][650]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-9x0 took (less than) 22.92 ms
+[2023.10.23-22.51.02:785][651]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1018.131 Y=-1645.143 Z=719.208
+[2023.10.23-22.51.02:803][652]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=979.857 Y=-1678.692 Z=697.441
+[2023.10.23-22.51.02:819][653]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=950.103 Y=-1705.053 Z=680.006
+[2023.10.23-22.51.02:845][654]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=888.880 Y=-1760.060 Z=642.731
+[2023.10.23-22.51.02:864][655]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=848.663 Y=-1796.750 Z=617.227
+[2023.10.23-22.51.02:878][656]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=817.265 Y=-1825.699 Z=596.758
+[2023.10.23-22.51.02:894][657]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=788.171 Y=-1852.760 Z=577.357
+[2023.10.23-22.51.02:917][657]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-6x0 took (less than) 22.75 ms
+[2023.10.23-22.51.02:929][658]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=709.583 Y=-1926.988 Z=522.882
+[2023.10.23-22.51.02:945][659]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=674.498 Y=-1960.649 Z=497.598
+[2023.10.23-22.51.02:961][660]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=644.029 Y=-1990.128 Z=475.169
+[2023.10.23-22.51.02:991][661]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=576.154 Y=-2056.560 Z=423.680
+[2023.10.23-22.51.03:010][662]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=536.139 Y=-2096.180 Z=392.369
+[2023.10.23-22.51.03:022][663]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=506.411 Y=-2125.806 Z=368.669
+[2023.10.23-22.51.03:039][664]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=472.149 Y=-2160.134 Z=340.905
+[2023.10.23-22.51.03:062][664]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-3x0 took (less than) 22.03 ms
+[2023.10.23-22.51.03:075][665]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=391.382 Y=-2241.795 Z=273.603
+[2023.10.23-22.51.03:093][666]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=348.400 Y=-2285.656 Z=236.752
+[2023.10.23-22.51.03:109][667]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=312.651 Y=-2322.336 Z=205.571
+[2023.10.23-22.51.03:156][668]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=214.952 Y=-2445.239 Z=192.145
+[2023.10.23-22.51.03:173][669]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=184.597 Y=-2487.143 Z=192.145
+[2023.10.23-22.51.03:194][670]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=143.719 Y=-2547.451 Z=192.145
+[2023.10.23-22.51.03:210][671]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=112.830 Y=-2594.755 Z=192.145
+[2023.10.23-22.51.03:229][672]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=82.542 Y=-2642.392 Z=192.145
+[2023.10.23-22.51.03:252][672]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x-1x0 took (less than) 22.30 ms
+[2023.10.23-22.51.03:264][673]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=17.141 Y=-2749.493 Z=192.145
+[2023.10.23-22.51.03:283][674]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-17.643 Y=-2806.505 Z=192.145
+[2023.10.23-22.51.03:300][675]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-48.838 Y=-2857.220 Z=192.145
+[2023.10.23-22.51.03:314][676]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-74.356 Y=-2898.249 Z=192.145
+[2023.10.23-22.51.03:337][676]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-2x0x0 took (less than) 21.26 ms
+[2023.10.23-22.51.03:349][677]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-141.949 Y=-3002.870 Z=192.145
+[2023.10.23-22.51.03:367][678]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-179.654 Y=-3059.492 Z=192.145
+[2023.10.23-22.51.03:382][679]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-209.494 Y=-3104.274 Z=221.572
+[2023.10.23-22.51.03:428][680]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-307.145 Y=-3250.421 Z=312.782
+[2023.10.23-22.51.03:445][681]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-338.792 Y=-3297.649 Z=340.726
+[2023.10.23-22.51.03:457][682]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-367.587 Y=-3340.558 Z=365.486
+[2023.10.23-22.51.03:475][683]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-403.743 Y=-3394.352 Z=395.697
+[2023.10.23-22.51.03:494][684]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-442.728 Y=-3452.247 Z=427.197
+[2023.10.23-22.51.03:546][685]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-555.560 Y=-3619.168 Z=512.328
+[2023.10.23-22.51.03:565][686]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-597.262 Y=-3680.618 Z=541.609
+[2023.10.23-22.51.03:584][687]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-638.141 Y=-3740.717 Z=569.210
+[2023.10.23-22.51.03:598][688]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-669.284 Y=-3786.407 Z=589.521
+[2023.10.23-22.51.03:645][689]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-774.100 Y=-3939.564 Z=653.483
+[2023.10.23-22.51.03:661][690]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-812.083 Y=-3994.822 Z=675.042
+[2023.10.23-22.51.03:678][691]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-850.171 Y=-4050.081 Z=695.822
+[2023.10.23-22.51.03:695][692]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-887.865 Y=-4104.611 Z=715.576
+[2023.10.23-22.51.03:727][693]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-964.557 Y=-4215.055 Z=753.347
+[2023.10.23-22.51.03:745][694]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1008.227 Y=-4277.637 Z=773.448
+[2023.10.23-22.51.03:766][695]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1054.500 Y=-4343.693 Z=793.666
+[2023.10.23-22.51.03:794][696]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1128.639 Y=-4448.973 Z=823.812
+[2023.10.23-22.51.03:812][697]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1172.776 Y=-4511.324 Z=840.487
+[2023.10.23-22.51.03:825][698]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1204.933 Y=-4556.598 Z=852.053
+[2023.10.23-22.51.03:850][699]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1265.791 Y=-4641.933 Z=872.637
+[2023.10.23-22.51.03:899][700]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1392.803 Y=-4818.619 Z=910.307
+[2023.10.23-22.51.03:918][701]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1440.158 Y=-4884.027 Z=922.600
+[2023.10.23-22.51.03:937][702]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1487.661 Y=-4949.390 Z=934.012
+[2023.10.23-22.51.03:958][703]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1541.587 Y=-5023.295 Z=945.881
+[2023.10.23-22.51.04:008][704]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1679.685 Y=-5211.173 Z=971.218
+[2023.10.23-22.51.04:024][705]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1722.785 Y=-5269.414 Z=977.693
+[2023.10.23-22.51.04:041][706]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1768.270 Y=-5330.682 Z=983.816
+[2023.10.23-22.51.04:058][707]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1813.682 Y=-5391.653 Z=989.215
+[2023.10.23-22.51.04:077][708]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1870.999 Y=-5468.332 Z=995.035
+[2023.10.23-22.51.04:139][709]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2042.091 Y=-5695.452 Z=1006.082
+[2023.10.23-22.51.04:160][710]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2104.065 Y=-5777.093 Z=1007.846
+[2023.10.23-22.51.04:175][711]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2148.032 Y=-5834.818 Z=1008.404
+[2023.10.23-22.51.04:197][712]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2209.817 Y=-5915.668 Z=1008.240
+[2023.10.23-22.51.04:220][713]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2273.793 Y=-5999.062 Z=1006.930
+[2023.10.23-22.51.04:241][714]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2338.278 Y=-6082.792 Z=1004.467
+[2023.10.23-22.51.04:296][715]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2502.997 Y=-6295.192 Z=993.169
+[2023.10.23-22.51.04:315][716]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2569.210 Y=-6379.980 Z=986.679
+[2023.10.23-22.51.04:335][717]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2626.787 Y=-6453.434 Z=980.148
+[2023.10.23-22.51.04:352][718]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2673.839 Y=-6513.271 Z=974.193
+[2023.10.23-22.51.04:371][719]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2735.708 Y=-6591.699 Z=965.516
+[2023.10.23-22.51.04:404][720]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2842.598 Y=-6726.523 Z=948.278
+[2023.10.23-22.51.04:424][721]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2903.457 Y=-6802.908 Z=937.202
+[2023.10.23-22.51.04:441][722]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2949.484 Y=-6860.496 Z=928.223
+[2023.10.23-22.51.04:474][723]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3060.996 Y=-6999.382 Z=904.330
+[2023.10.23-22.51.04:490][724]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3112.416 Y=-7063.126 Z=892.301
+[2023.10.23-22.51.04:504][725]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3156.999 Y=-7118.242 Z=881.358
+[2023.10.23-22.51.04:524][726]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3217.161 Y=-7192.398 Z=865.838
+[2023.10.23-22.51.04:580][727]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3394.744 Y=-7409.820 Z=815.039
+[2023.10.23-22.51.04:595][728]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3444.893 Y=-7470.822 Z=799.357
+[2023.10.23-22.51.04:611][729]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3490.086 Y=-7525.640 Z=784.726
+[2023.10.23-22.51.04:629][730]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3543.873 Y=-7590.694 Z=766.701
+[2023.10.23-22.51.04:662][731]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3653.426 Y=-7722.561 Z=727.941
+[2023.10.23-22.51.04:680][732]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3713.353 Y=-7794.329 Z=705.589
+[2023.10.23-22.51.04:698][733]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3767.739 Y=-7859.229 Z=684.606
+[2023.10.23-22.51.04:751][734]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3937.483 Y=-8060.296 Z=614.917
+[2023.10.23-22.51.04:771][735]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3995.774 Y=-8128.787 Z=589.541
+[2023.10.23-22.51.04:785][736]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4050.366 Y=-8192.614 Z=565.129
+[2023.10.23-22.51.04:802][737]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4101.083 Y=-8251.615 Z=541.897
+[2023.10.23-22.51.04:834][738]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4207.012 Y=-8373.850 Z=491.702
+[2023.10.23-22.51.04:852][739]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4268.663 Y=-8444.323 Z=461.473
+[2023.10.23-22.51.04:868][740]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4321.316 Y=-8504.071 Z=435.086
+[2023.10.23-22.51.04:885][741]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4378.283 Y=-8568.233 Z=405.961
+[2023.10.23-22.51.04:909][741]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-6x0 took (less than) 21.45 ms
+[2023.10.23-22.51.04:922][742]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4501.039 Y=-8695.783 Z=375.432
+[2023.10.23-22.51.04:943][743]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4572.918 Y=-8743.435 Z=388.147
+[2023.10.23-22.51.04:957][744]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4633.942 Y=-8773.370 Z=398.311
+[2023.10.23-22.51.05:013][745]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4835.614 Y=-8800.787 Z=430.173
+[2023.10.23-22.51.05:032][746]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4901.496 Y=-8791.832 Z=440.402
+[2023.10.23-22.51.05:078][747]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5004.121 Y=-8732.720 Z=457.796
+[2023.10.23-22.51.05:094][748]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5044.213 Y=-8699.662 Z=464.322
+[2023.10.23-22.51.05:144][749]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5108.588 Y=-8601.282 Z=475.573
+[2023.10.23-22.51.05:159][750]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5121.932 Y=-8567.603 Z=477.970
+[2023.10.23-22.51.05:177][751]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5132.275 Y=-8530.340 Z=479.827
+[2023.10.23-22.51.05:196][752]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5139.194 Y=-8490.873 Z=481.070
+[2023.10.23-22.51.05:245][753]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5134.431 Y=-8385.610 Z=481.037
+[2023.10.23-22.51.05:261][754]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5131.464 Y=-8351.658 Z=480.480
+[2023.10.23-22.51.05:277][755]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5127.477 Y=-8319.124 Z=480.057
+[2023.10.23-22.51.05:295][756]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5121.267 Y=-8280.149 Z=479.148
+[2023.10.23-22.51.05:341][757]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5097.180 Y=-8179.421 Z=475.229
+[2023.10.23-22.51.05:361][758]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5085.740 Y=-8135.583 Z=472.774
+[2023.10.23-22.51.05:380][759]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5073.955 Y=-8093.716 Z=470.380
+[2023.10.23-22.51.05:402][760]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5060.437 Y=-8051.374 Z=467.964
+[2023.10.23-22.51.05:422][761]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-5043.472 Y=-8005.629 Z=465.099
+[2023.10.23-22.51.05:472][762]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4992.211 Y=-7898.555 Z=455.956
+[2023.10.23-22.51.05:492][763]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4967.510 Y=-7857.591 Z=451.511
+[2023.10.23-22.51.05:511][764]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4943.209 Y=-7822.263 Z=446.836
+[2023.10.23-22.51.05:533][765]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4909.962 Y=-7780.516 Z=440.285
+[2023.10.23-22.51.05:557][765]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-1x-8x0 took (less than) 21.88 ms
+[2023.10.23-22.51.05:568][766]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4848.433 Y=-7717.728 Z=427.137
+[2023.10.23-22.51.05:585][767]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4819.500 Y=-7690.338 Z=420.770
+[2023.10.23-22.51.05:607][768]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4779.211 Y=-7655.574 Z=411.826
+[2023.10.23-22.51.05:662][769]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4670.296 Y=-7574.505 Z=388.543
+[2023.10.23-22.51.05:679][770]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4632.920 Y=-7549.349 Z=380.477
+[2023.10.23-22.51.05:694][771]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4597.731 Y=-7526.835 Z=373.135
+[2023.10.23-22.51.05:719][772]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4546.236 Y=-7495.994 Z=362.357
+[2023.10.23-22.51.05:740][773]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4502.059 Y=-7470.807 Z=353.478
+[2023.10.23-22.51.05:765][773]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-6x1x0 took (less than) 23.09 ms
+[2023.10.23-22.51.05:777][774]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4409.660 Y=-7422.748 Z=335.698
+[2023.10.23-22.51.05:795][775]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4367.560 Y=-7401.618 Z=328.045
+[2023.10.23-22.51.05:819][776]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4312.883 Y=-7375.354 Z=318.815
+[2023.10.23-22.51.05:849][777]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4228.839 Y=-7337.298 Z=304.550
+[2023.10.23-22.51.05:869][778]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4180.943 Y=-7316.141 Z=296.601
+[2023.10.23-22.51.05:889][779]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4129.409 Y=-7293.881 Z=289.167
+[2023.10.23-22.51.05:913][780]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-4062.056 Y=-7265.486 Z=279.956
+[2023.10.23-22.51.05:963][781]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3926.585 Y=-7209.873 Z=264.127
+[2023.10.23-22.51.05:980][782]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3882.143 Y=-7191.907 Z=259.276
+[2023.10.23-22.51.05:998][783]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3834.741 Y=-7172.882 Z=254.615
+[2023.10.23-22.51.06:028][784]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3752.233 Y=-7139.825 Z=247.361
+[2023.10.23-22.51.06:086][785]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3594.032 Y=-7071.419 Z=236.364
+[2023.10.23-22.51.06:107][786]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3528.265 Y=-7042.279 Z=281.705
+[2023.10.23-22.51.06:127][787]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3466.387 Y=-7014.631 Z=322.827
+[2023.10.23-22.51.06:149][788]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3400.428 Y=-6984.896 Z=365.069
+[2023.10.23-22.51.06:169][789]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3342.236 Y=-6958.440 Z=401.007
+[2023.10.23-22.51.06:219][790]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3190.703 Y=-6888.595 Z=488.946
+[2023.10.23-22.51.06:235][791]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3145.714 Y=-6867.603 Z=513.532
+[2023.10.23-22.51.06:254][792]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3088.941 Y=-6840.949 Z=543.593
+[2023.10.23-22.51.06:275][793]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-3023.280 Y=-6809.902 Z=577.046
+[2023.10.23-22.51.06:324][794]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2870.614 Y=-6736.826 Z=649.545
+[2023.10.23-22.51.06:345][795]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2808.111 Y=-6706.561 Z=677.164
+[2023.10.23-22.51.06:364][796]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2748.152 Y=-6677.344 Z=702.567
+[2023.10.23-22.51.06:383][797]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2685.388 Y=-6646.571 Z=728.037
+[2023.10.23-22.51.06:435][798]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2518.843 Y=-6564.007 Z=790.229
+[2023.10.23-22.51.06:452][799]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2467.070 Y=-6538.080 Z=808.013
+[2023.10.23-22.51.06:480][800]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2374.896 Y=-6491.621 Z=837.917
+[2023.10.23-22.51.06:506][801]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2299.620 Y=-6453.390 Z=860.707
+[2023.10.23-22.51.06:539][802]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2181.424 Y=-6392.804 Z=893.620
+[2023.10.23-22.51.06:555][803]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2127.055 Y=-6364.699 Z=907.612
+[2023.10.23-22.51.06:579][804]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-2046.447 Y=-6322.742 Z=927.060
+[2023.10.23-22.51.06:599][805]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1975.866 Y=-6285.725 Z=942.838
+[2023.10.23-22.51.06:623][806]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1905.919 Y=-6248.785 Z=957.347
+[2023.10.23-22.51.06:644][806]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x-3x0 took (less than) 20.36 ms
+[2023.10.23-22.51.06:656][807]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1781.191 Y=-6182.301 Z=980.492
+[2023.10.23-22.51.06:677][808]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1710.291 Y=-6144.163 Z=992.126
+[2023.10.23-22.51.06:697][809]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1639.103 Y=-6105.622 Z=1002.720
+[2023.10.23-22.51.06:752][810]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1444.799 Y=-5999.161 Z=1026.249
+[2023.10.23-22.51.06:770][811]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1385.049 Y=-5966.043 Z=1031.940
+[2023.10.23-22.51.06:790][812]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1314.764 Y=-5926.829 Z=1037.728
+[2023.10.23-22.51.06:809][813]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1243.837 Y=-5886.965 Z=1042.591
+[2023.10.23-22.51.06:861][814]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-1049.537 Y=-5776.193 Z=1050.993
+[2023.10.23-22.51.06:877][815]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-989.969 Y=-5741.771 Z=1052.154
+[2023.10.23-22.51.06:898][816]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-918.566 Y=-5700.214 Z=1052.688
+[2023.10.23-22.51.06:923][817]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-825.180 Y=-5645.383 Z=1051.992
+[2023.10.23-22.51.06:977][818]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-622.151 Y=-5524.338 Z=1045.139
+[2023.10.23-22.51.06:993][819]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-562.021 Y=-5488.014 Z=1041.732
+[2023.10.23-22.51.07:013][820]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-490.999 Y=-5444.837 Z=1036.914
+[2023.10.23-22.51.07:035][821]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-411.349 Y=-5396.067 Z=1030.496
+[2023.10.23-22.51.07:066][822]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-286.174 Y=-5318.686 Z=1018.277
+[2023.10.23-22.51.07:084][823]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-220.507 Y=-5277.737 Z=1010.838
+[2023.10.23-22.51.07:110][824]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-121.983 Y=-5215.851 Z=998.372
+[2023.10.23-22.51.07:133][825]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=-32.188 Y=-5158.981 Z=985.662
+[2023.10.23-22.51.07:186][826]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=180.574 Y=-5022.458 Z=950.513
+[2023.10.23-22.51.07:207][827]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=250.887 Y=-4976.798 Z=937.368
+[2023.10.23-22.51.07:227][828]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=334.345 Y=-4922.254 Z=920.799
+[2023.10.23-22.51.07:249][829]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=422.531 Y=-4864.217 Z=902.161
+[2023.10.23-22.51.07:303][830]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=637.733 Y=-4720.875 Z=851.898
+[2023.10.23-22.51.07:323][831]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=711.639 Y=-4671.096 Z=833.099
+[2023.10.23-22.51.07:345][832]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=802.549 Y=-4609.481 Z=808.915
+[2023.10.23-22.51.07:368][833]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=891.985 Y=-4548.441 Z=783.991
+[2023.10.23-22.51.07:389][834]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=974.747 Y=-4491.560 Z=759.932
+[2023.10.23-22.51.07:445][835]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1202.463 Y=-4332.878 Z=688.809
+[2023.10.23-22.51.07:462][836]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1278.561 Y=-4279.092 Z=663.432
+[2023.10.23-22.51.07:482][837]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1358.833 Y=-4221.877 Z=635.722
+[2023.10.23-22.51.07:509][838]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1465.518 Y=-4145.058 Z=597.292
+[2023.10.23-22.51.07:564][839]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1694.206 Y=-3977.337 Z=508.622
+[2023.10.23-22.51.07:581][840]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1762.634 Y=-3926.331 Z=480.395
+[2023.10.23-22.51.07:601][841]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1836.591 Y=-3870.773 Z=448.996
+[2023.10.23-22.51.07:628][842]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1947.654 Y=-3786.491 Z=400.084
+[2023.10.23-22.51.07:682][843]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2165.105 Y=-3618.501 Z=298.108
+[2023.10.23-22.51.07:698][844]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2228.340 Y=-3568.903 Z=266.885
+[2023.10.23-22.51.07:721][845]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2307.971 Y=-3505.964 Z=226.546
+[2023.10.23-22.51.07:751][845]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_-5x-4x0 took (less than) 26.77 ms
+[2023.10.23-22.51.07:761][846]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2457.295 Y=-3363.560 Z=192.145
+[2023.10.23-22.51.07:779][847]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2507.016 Y=-3300.130 Z=192.145
+[2023.10.23-22.51.07:807][848]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2570.991 Y=-3197.244 Z=192.145
+[2023.10.23-22.51.07:835][849]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2631.365 Y=-3074.838 Z=192.145
+[2023.10.23-22.51.07:868][850]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2688.461 Y=-2928.549 Z=192.145
+[2023.10.23-22.51.07:887][851]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2719.163 Y=-2849.884 Z=192.145
+[2023.10.23-22.51.07:914][852]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2764.855 Y=-2732.814 Z=192.145
+[2023.10.23-22.51.07:938][853]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2800.887 Y=-2640.493 Z=192.145
+[2023.10.23-22.51.07:998][854]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2897.262 Y=-2393.562 Z=192.145
+[2023.10.23-22.51.08:015][855]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2928.095 Y=-2314.563 Z=192.145
+[2023.10.23-22.51.08:035][856]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2958.178 Y=-2237.484 Z=192.145
+[2023.10.23-22.51.08:066][857]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3004.330 Y=-2119.234 Z=192.145
+[2023.10.23-22.51.08:098][858]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3056.517 Y=-1985.522 Z=192.145
+[2023.10.23-22.51.08:118][859]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3085.525 Y=-1911.198 Z=192.145
+[2023.10.23-22.51.08:146][860]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3124.083 Y=-1812.405 Z=192.145
+[2023.10.23-22.51.08:177][861]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3173.479 Y=-1685.843 Z=192.145
+[2023.10.23-22.51.08:195][862]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3197.424 Y=-1624.491 Z=192.145
+[2023.10.23-22.51.08:238][862]LogStreaming: Display: FlushAsyncLoading(): 0 QueuedPackages, 185 AsyncPackages
+[2023.10.23-22.51.11:366][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.23-22.51.11:366][862]LogWorld: BeginTearingDown for /Game/Map/MainMap/UEDPIE_0_MainMap
+[2023.10.23-22.51.11:499][862]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.51.11:499][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.51.11:503][862]LogNet: World NetDriver shutdown IpNetDriver_18 [GameNetDriver]
+[2023.10.23-22.51.11:503][862]LogNet: DestroyNamedNetDriver IpNetDriver_18 [GameNetDriver]
+[2023.10.23-22.51.11:503][862]LogExit: GameNetDriver IpNetDriver_18 shut down
+[2023.10.23-22.51.11:505][862]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.23-22.51.11:540][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.51.11:854][862]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-22.51.11:855][862]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.10.23-22.51.11:855][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.10.23-22.51.11:857][862]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.10.23-22.51.11:862][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.23-22.51.12:215][862]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2023.10.23-22.51.12:503][863]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2023.10.23-22.51.12:519][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.10.23-22.51.13:391][881]LogSlate: Window 'Message Log' being destroyed
+[2023.10.23-22.51.13:427][881]LogSlate: Window 'Message Log' being destroyed
+[2023.10.23-22.52.23:497][ 51]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2023.10.23-22.52.23:549][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.10.23-22.52.25:445][136]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.23-22.52.25:451][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.23-22.52.25:451][136]PIE: New page: PIE session: MainMap (24 oct. 2023 à 02:52:25)
+[2023.10.23-22.52.25:451][136]LogPlayLevel: Display: Creating online subsystem for client :Context_60
+[2023.10.23-22.52.25:454][136]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.10.23-22.52.25:472][137]LogPlayLevel: Creating play world package: /Game/Map/MainMap/UEDPIE_0_MainMap
+[2023.10.23-22.52.25:488][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016141s)
+[2023.10.23-22.52.25:488][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap/MainMap.MainMap to /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap (0.016189s)
+[2023.10.23-22.52.25:507][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.10.23-22.52.25:510][137]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-22.52.25:510][137]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-22.52.25:510][137]LogAIModule: Creating AISystem for world MainMap
+[2023.10.23-22.52.25:511][137]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2023.10.23-22.52.25:511][137]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.10.23-22.52.25:511][137]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.23-22.52.25:511][137]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.23-22.52.25:511][137]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.23-22.52.25:511][137]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.23-22.52.25:511][137]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.23-22.52.25:511][137]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.23-22.52.25:511][137]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.23-22.52.25:511][137]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.23-22.52.25:511][137]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.23-22.52.25:511][137]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.23-22.52.25:511][137]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.23-22.52.25:513][137]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.23-22.52.25:537][137]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Razer USB Sound Card)
+[2023.10.23-22.52.25:537][137]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.23-22.52.25:537][137]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.23-22.52.25:537][137]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.23-22.52.25:538][137]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.10.23-22.52.25:538][137]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.10.23-22.52.25:540][137]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.10.23-22.52.25:540][137]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.10.23-22.52.25:540][137]LogInit: FAudioDevice initialized with ID 21.
+[2023.10.23-22.52.25:540][137]LogAudio: Display: Audio Device (ID: 21) registered with world 'MainMap'.
+[2023.10.23-22.52.25:540][137]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.10.23-22.52.25:542][137]LogLoad: Game class is 'Main_GameMode_C'
+[2023.10.23-22.52.25:545][137]LogWorld: Bringing World /Game/Map/MainMap/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.10.24-00.52.25
+[2023.10.23-22.52.25:545][137]LogWorld: Bringing up level for play took: 0.002635
+[2023.10.23-22.52.25:548][137]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.10.23-22.52.25:548][137]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.10.23-22.52.25:548][137]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.10.23-22.52.25:548][137]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2023.10.23-22.52.25:548][137]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.10.23-22.52.25:548][137]LogNet: GameNetDriver IpNetDriver_19 IpNetDriver listening on port 17777
+[2023.10.23-22.52.25:554][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetStreamingLevel_ReturnValue". Node:  Create Instance Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.52.25:554][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set LevelTransform Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.52.25:554][137]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LevelTransform Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.52.25:554][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set bShouldBlockOnLoad Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.52.25:554][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateInstance_ReturnValue". Node:  Set bShouldBlockOnUnload Graph:  generateNewTiles Function:  Generate New Tiles Blueprint:  EndlessWorldComponent
+[2023.10.23-22.52.25:554][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeLoaded Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-22.52.25:554][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Set bShouldBeVisible Graph:  setLevelVisibility Function:  Set Level Visibility Blueprint:  EndlessWorldComponent
+[2023.10.23-22.52.25:560][137]PIE: Server logged in
+[2023.10.23-22.52.25:561][137]PIE: Play in editor total start time 0,109 seconds.
+[2023.10.23-22.52.25:562][137]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=269.045
+[2023.10.23-22.52.25:610][138]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=239.453
+[2023.10.23-22.52.25:789][139]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:148][140]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:178][141]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:204][142]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:261][143]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:284][144]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:301][145]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:321][146]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:340][147]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:360][148]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:387][148]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x0x0 took (less than) 25.21 ms
+[2023.10.23-22.52.26:398][149]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:417][150]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:434][151]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:450][152]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:478][152]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x2x0 took (less than) 26.55 ms
+[2023.10.23-22.52.26:489][153]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.000 Y=0.000 Z=192.150
+[2023.10.23-22.52.26:507][154]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=0.374 Y=0.299 Z=192.150
+[2023.10.23-22.52.26:524][155]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1.055 Y=0.845 Z=192.150
+[2023.10.23-22.52.26:539][156]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1.947 Y=1.560 Z=192.150
+[2023.10.23-22.52.26:590][157]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=7.247 Y=5.806 Z=192.150
+[2023.10.23-22.52.26:610][158]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=9.855 Y=7.929 Z=192.150
+[2023.10.23-22.52.26:630][159]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=13.191 Y=10.782 Z=192.150
+[2023.10.23-22.52.26:645][160]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=15.333 Y=12.682 Z=192.150
+[2023.10.23-22.52.26:675][161]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=21.702 Y=18.767 Z=192.150
+[2023.10.23-22.52.26:698][162]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=26.813 Y=23.936 Z=192.150
+[2023.10.23-22.52.26:717][163]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=31.472 Y=28.847 Z=192.150
+[2023.10.23-22.52.26:737][164]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=36.408 Y=34.219 Z=192.150
+[2023.10.23-22.52.26:754][165]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=40.802 Y=39.109 Z=192.150
+[2023.10.23-22.52.26:770][166]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=45.453 Y=44.377 Z=192.150
+[2023.10.23-22.52.26:791][167]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=52.385 Y=50.061 Z=192.150
+[2023.10.23-22.52.26:811][168]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=59.924 Y=54.834 Z=192.150
+[2023.10.23-22.52.26:831][169]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=68.360 Y=59.084 Z=192.150
+[2023.10.23-22.52.26:884][170]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=94.616 Y=68.059 Z=192.150
+[2023.10.23-22.52.26:900][171]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=103.618 Y=70.469 Z=192.150
+[2023.10.23-22.52.27:043][172]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=202.709 Y=85.779 Z=192.150
+[2023.10.23-22.52.27:064][173]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=218.395 Y=87.721 Z=192.150
+[2023.10.23-22.52.27:090][173]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x-6x0 took (less than) 24.39 ms
+[2023.10.23-22.52.27:103][174]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=250.534 Y=91.446 Z=192.150
+[2023.10.23-22.52.27:124][175]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=269.230 Y=92.863 Z=192.150
+[2023.10.23-22.52.27:145][176]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=289.712 Y=92.843 Z=192.150
+[2023.10.23-22.52.27:168][177]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=309.437 Y=90.876 Z=192.150
+[2023.10.23-22.52.27:186][178]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=326.086 Y=87.569 Z=192.150
+[2023.10.23-22.52.27:204][179]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=343.183 Y=82.288 Z=192.150
+[2023.10.23-22.52.27:222][180]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=358.383 Y=76.028 Z=192.150
+[2023.10.23-22.52.27:238][181]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=372.610 Y=68.829 Z=192.150
+[2023.10.23-22.52.27:259][182]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=390.178 Y=57.986 Z=192.150
+[2023.10.23-22.52.27:312][183]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=431.238 Y=25.655 Z=192.150
+[2023.10.23-22.52.27:330][184]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=445.061 Y=14.003 Z=226.616
+[2023.10.23-22.52.27:349][185]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=460.583 Y=0.784 Z=263.646
+[2023.10.23-22.52.27:362][186]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=472.676 Y=-9.605 Z=291.335
+[2023.10.23-22.52.27:382][187]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=487.680 Y=-22.590 Z=324.346
+[2023.10.23-22.52.27:407][187]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x4x0 took (less than) 25.14 ms
+[2023.10.23-22.52.27:418][188]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=521.242 Y=-51.995 Z=393.225
+[2023.10.23-22.52.27:433][189]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=534.539 Y=-63.771 Z=418.761
+[2023.10.23-22.52.27:445][190]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=545.560 Y=-73.583 Z=439.224
+[2023.10.23-22.52.27:467][191]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=564.335 Y=-90.398 Z=472.687
+[2023.10.23-22.52.27:521][192]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=617.082 Y=-138.258 Z=558.093
+[2023.10.23-22.52.27:537][193]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=632.303 Y=-152.225 Z=580.583
+[2023.10.23-22.52.27:550][194]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=645.580 Y=-164.460 Z=599.473
+[2023.10.23-22.52.27:564][195]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=658.466 Y=-176.379 Z=617.184
+[2023.10.23-22.52.27:594][196]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=691.057 Y=-206.712 Z=659.384
+[2023.10.23-22.52.27:611][197]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=709.467 Y=-223.960 Z=681.667
+[2023.10.23-22.52.27:628][198]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=728.693 Y=-242.052 Z=703.811
+[2023.10.23-22.52.27:641][199]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=741.819 Y=-254.451 Z=718.294
+[2023.10.23-22.52.27:695][200]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=801.905 Y=-311.645 Z=778.471
+[2023.10.23-22.52.27:711][201]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=821.596 Y=-330.535 Z=796.155
+[2023.10.23-22.52.27:727][202]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=839.742 Y=-348.003 Z=811.622
+[2023.10.23-22.52.27:740][203]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=855.856 Y=-363.562 Z=824.714
+[2023.10.23-22.52.27:753][204]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=870.393 Y=-377.634 Z=836.024
+[2023.10.23-22.52.27:804][205]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=933.108 Y=-438.712 Z=879.686
+[2023.10.23-22.52.27:819][206]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=953.483 Y=-458.676 Z=892.184
+[2023.10.23-22.52.27:835][207]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=971.445 Y=-476.322 Z=902.557
+[2023.10.23-22.52.27:849][208]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=988.992 Y=-493.603 Z=912.127
+[2023.10.23-22.52.27:863][209]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1009.120 Y=-513.479 Z=922.440
+[2023.10.23-22.52.27:914][210]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1076.973 Y=-580.912 Z=952.276
+[2023.10.23-22.52.27:933][211]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1103.492 Y=-607.455 Z=961.994
+[2023.10.23-22.52.27:954][212]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1131.860 Y=-635.980 Z=971.256
+[2023.10.23-22.52.27:965][213]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1149.038 Y=-653.316 Z=976.314
+[2023.10.23-22.52.27:978][214]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1168.194 Y=-672.704 Z=981.478
+[2023.10.23-22.52.28:040][215]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1255.460 Y=-761.723 Z=998.987
+[2023.10.23-22.52.28:058][216]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1282.272 Y=-789.294 Z=1002.495
+[2023.10.23-22.52.28:077][217]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1311.004 Y=-818.958 Z=1005.333
+[2023.10.23-22.52.28:089][218]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1329.936 Y=-838.571 Z=1006.698
+[2023.10.23-22.52.28:104][219]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1348.137 Y=-857.476 Z=1007.641
+[2023.10.23-22.52.28:127][219]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x6x0 took (less than) 22.06 ms
+[2023.10.23-22.52.28:139][220]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1404.144 Y=-915.920 Z=1008.348
+[2023.10.23-22.52.28:156][221]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1433.325 Y=-946.510 Z=1007.454
+[2023.10.23-22.52.28:172][222]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1457.932 Y=-972.364 Z=1006.055
+[2023.10.23-22.52.28:187][223]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1477.123 Y=-992.564 Z=1004.565
+[2023.10.23-22.52.28:208][223]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x3x0 took (less than) 20.22 ms
+[2023.10.23-22.52.28:218][224]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1532.566 Y=-1051.093 Z=998.367
+[2023.10.23-22.52.28:236][225]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1559.438 Y=-1079.548 Z=994.385
+[2023.10.23-22.52.28:250][226]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1582.214 Y=-1103.708 Z=990.529
+[2023.10.23-22.52.28:267][227]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1609.672 Y=-1132.870 Z=985.310
+[2023.10.23-22.52.28:316][228]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1694.001 Y=-1222.497 Z=965.578
+[2023.10.23-22.52.28:331][229]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1722.055 Y=-1252.315 Z=957.837
+[2023.10.23-22.52.28:354][230]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1761.687 Y=-1294.427 Z=945.954
+[2023.10.23-22.52.28:368][231]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1786.367 Y=-1320.645 Z=938.010
+[2023.10.23-22.52.28:386][232]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1818.230 Y=-1354.486 Z=927.157
+[2023.10.23-22.52.28:437][233]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1912.763 Y=-1454.837 Z=891.181
+[2023.10.23-22.52.28:453][234]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1940.232 Y=-1483.984 Z=879.718
+[2023.10.23-22.52.28:465][235]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1966.913 Y=-1512.289 Z=868.169
+[2023.10.23-22.52.28:480][236]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1989.674 Y=-1536.432 Z=857.999
+[2023.10.23-22.52.28:507][237]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2045.972 Y=-1596.132 Z=831.632
+[2023.10.23-22.52.28:525][238]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2080.302 Y=-1632.526 Z=814.731
+[2023.10.23-22.52.28:542][239]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2112.517 Y=-1666.672 Z=798.325
+[2023.10.23-22.52.28:556][240]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2138.096 Y=-1693.778 Z=784.930
+[2023.10.23-22.52.28:605][240]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x4x0 took (less than) 48.23 ms
+[2023.10.23-22.52.28:617][241]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2261.177 Y=-1824.156 Z=716.137
+[2023.10.23-22.52.28:635][242]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2299.349 Y=-1864.570 Z=693.412
+[2023.10.23-22.52.28:649][243]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2326.577 Y=-1893.392 Z=676.817
+[2023.10.23-22.52.28:663][244]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2355.096 Y=-1923.579 Z=659.101
+[2023.10.23-22.52.28:752][245]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2536.021 Y=-2115.190 Z=539.086
+[2023.10.23-22.52.28:773][246]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2589.111 Y=-2171.873 Z=501.308
+[2023.10.23-22.52.28:788][247]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2622.135 Y=-2207.449 Z=477.146
+[2023.10.23-22.52.28:805][248]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2658.369 Y=-2246.665 Z=450.112
+[2023.10.23-22.52.28:850][248]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x0x0 took (less than) 43.10 ms
+[2023.10.23-22.52.28:864][249]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2785.969 Y=-2387.476 Z=349.939
+[2023.10.23-22.52.28:887][250]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2841.241 Y=-2450.118 Z=303.887
+[2023.10.23-22.52.28:909][251]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2888.558 Y=-2504.824 Z=262.917
+[2023.10.23-22.52.28:930][252]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2933.002 Y=-2557.146 Z=223.094
+[2023.10.23-22.52.28:949][253]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2975.314 Y=-2608.445 Z=192.145
+[2023.10.23-22.52.28:966][254]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2996.384 Y=-2646.733 Z=192.145
+[2023.10.23-22.52.28:981][255]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3008.174 Y=-2678.077 Z=192.145
+[2023.10.23-22.52.29:007][255]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x7x0 took (less than) 23.61 ms
+[2023.10.23-22.52.29:017][256]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=3002.467 Y=-2741.523 Z=192.145
+[2023.10.23-22.52.29:058][257]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2972.755 Y=-2795.804 Z=192.145
+[2023.10.23-22.52.29:080][258]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2954.694 Y=-2820.060 Z=192.145
+[2023.10.23-22.52.29:101][259]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2936.138 Y=-2840.100 Z=192.145
+[2023.10.23-22.52.29:128][259]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x-2x0 took (less than) 25.96 ms
+[2023.10.23-22.52.29:139][260]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2890.986 Y=-2873.647 Z=192.145
+[2023.10.23-22.52.29:157][261]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2871.358 Y=-2886.707 Z=192.145
+[2023.10.23-22.52.29:171][262]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2852.763 Y=-2897.974 Z=192.145
+[2023.10.23-22.52.29:220][263]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2791.348 Y=-2904.606 Z=192.145
+[2023.10.23-22.52.29:237][264]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2768.002 Y=-2903.955 Z=192.145
+[2023.10.23-22.52.29:251][265]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2750.292 Y=-2901.716 Z=192.145
+[2023.10.23-22.52.29:266][266]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2734.303 Y=-2898.314 Z=192.145
+[2023.10.23-22.52.29:299][267]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2694.143 Y=-2880.567 Z=192.145
+[2023.10.23-22.52.29:317][268]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2677.957 Y=-2870.033 Z=192.145
+[2023.10.23-22.52.29:329][269]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2667.091 Y=-2861.122 Z=192.145
+[2023.10.23-22.52.29:380][270]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2637.874 Y=-2818.622 Z=192.145
+[2023.10.23-22.52.29:396][271]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2630.312 Y=-2802.101 Z=192.145
+[2023.10.23-22.52.29:410][272]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2625.215 Y=-2788.937 Z=192.145
+[2023.10.23-22.52.29:422][273]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2621.214 Y=-2776.973 Z=192.145
+[2023.10.23-22.52.29:505][274]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2576.241 Y=-2698.308 Z=192.145
+[2023.10.23-22.52.29:522][275]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2564.595 Y=-2681.083 Z=192.145
+[2023.10.23-22.52.29:535][276]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2556.476 Y=-2669.538 Z=192.145
+[2023.10.23-22.52.29:547][277]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2547.314 Y=-2657.036 Z=192.145
+[2023.10.23-22.52.29:596][278]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2500.051 Y=-2628.491 Z=192.145
+[2023.10.23-22.52.29:610][279]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2485.243 Y=-2620.948 Z=192.145
+[2023.10.23-22.52.29:622][280]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2472.221 Y=-2615.178 Z=192.145
+[2023.10.23-22.52.29:635][281]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2459.185 Y=-2610.122 Z=192.145
+[2023.10.23-22.52.29:662][281]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_6x-3x0 took (less than) 25.39 ms
+[2023.10.23-22.52.29:672][282]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2415.171 Y=-2599.373 Z=192.145
+[2023.10.23-22.52.29:687][283]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2398.622 Y=-2595.900 Z=192.145
+[2023.10.23-22.52.29:701][284]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2383.931 Y=-2593.196 Z=192.145
+[2023.10.23-22.52.29:728][284]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x-4x0 took (less than) 25.76 ms
+[2023.10.23-22.52.29:740][285]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2333.687 Y=-2587.523 Z=192.145
+[2023.10.23-22.52.29:755][286]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2312.662 Y=-2585.496 Z=192.145
+[2023.10.23-22.52.29:770][287]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2294.902 Y=-2583.904 Z=192.145
+[2023.10.23-22.52.29:792][288]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2269.540 Y=-2578.010 Z=192.145
+[2023.10.23-22.52.29:821][288]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x-1x0 took (less than) 28.64 ms
+[2023.10.23-22.52.29:834][289]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2223.936 Y=-2551.159 Z=192.145
+[2023.10.23-22.52.29:852][290]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2206.887 Y=-2537.613 Z=192.145
+[2023.10.23-22.52.29:865][291]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2195.351 Y=-2526.296 Z=192.145
+[2023.10.23-22.52.29:913][292]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2172.888 Y=-2477.509 Z=192.145
+[2023.10.23-22.52.29:929][293]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2166.356 Y=-2459.453 Z=192.145
+[2023.10.23-22.52.29:941][294]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2162.623 Y=-2447.372 Z=192.145
+[2023.10.23-22.52.29:953][295]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2159.404 Y=-2435.121 Z=192.145
+[2023.10.23-22.52.29:979][295]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x0x0 took (less than) 25.42 ms
+[2023.10.23-22.52.29:990][296]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2153.694 Y=-2391.065 Z=192.145
+[2023.10.23-22.52.30:004][297]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2152.054 Y=-2373.956 Z=192.145
+[2023.10.23-22.52.30:018][298]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2151.040 Y=-2359.919 Z=192.145
+[2023.10.23-22.52.30:047][298]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-3x0 took (less than) 29.30 ms
+[2023.10.23-22.52.30:058][299]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2151.162 Y=-2305.880 Z=192.145
+[2023.10.23-22.52.30:073][300]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2151.505 Y=-2287.272 Z=192.145
+[2023.10.23-22.52.30:089][301]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2152.181 Y=-2267.057 Z=192.145
+[2023.10.23-22.52.30:105][302]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2153.133 Y=-2246.512 Z=192.145
+[2023.10.23-22.52.30:133][302]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-1x0 took (less than) 26.76 ms
+[2023.10.23-22.52.30:144][303]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2143.070 Y=-2195.536 Z=192.145
+[2023.10.23-22.52.30:158][304]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2138.031 Y=-2176.372 Z=192.145
+[2023.10.23-22.52.30:172][305]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2132.867 Y=-2159.934 Z=192.145
+[2023.10.23-22.52.30:189][306]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2125.141 Y=-2139.327 Z=192.145
+[2023.10.23-22.52.30:218][306]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-4x0 took (less than) 27.86 ms
+[2023.10.23-22.52.30:231][307]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2098.867 Y=-2088.918 Z=192.145
+[2023.10.23-22.52.30:249][308]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2085.565 Y=-2066.707 Z=192.145
+[2023.10.23-22.52.30:283][309]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2057.284 Y=-2029.547 Z=192.145
+[2023.10.23-22.52.30:312][309]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-2x0 took (less than) 27.72 ms
+[2023.10.23-22.52.30:323][310]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2013.696 Y=-1987.130 Z=192.145
+[2023.10.23-22.52.30:340][311]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1996.248 Y=-1974.216 Z=192.145
+[2023.10.23-22.52.30:352][312]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1980.746 Y=-1965.089 Z=192.145
+[2023.10.23-22.52.30:370][313]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1959.405 Y=-1955.990 Z=192.145
+[2023.10.23-22.52.30:424][314]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1891.534 Y=-1944.723 Z=192.145
+[2023.10.23-22.52.30:441][315]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1868.345 Y=-1944.063 Z=192.145
+[2023.10.23-22.52.30:454][316]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1853.332 Y=-1944.201 Z=192.145
+[2023.10.23-22.52.30:466][317]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1838.204 Y=-1944.853 Z=192.145
+[2023.10.23-22.52.30:491][317]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-7x0 took (less than) 24.38 ms
+[2023.10.23-22.52.30:501][318]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1790.417 Y=-1951.336 Z=192.145
+[2023.10.23-22.52.30:515][319]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1770.826 Y=-1954.516 Z=192.145
+[2023.10.23-22.52.30:530][320]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1751.800 Y=-1958.031 Z=192.145
+[2023.10.23-22.52.30:578][321]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1682.967 Y=-1975.391 Z=192.145
+[2023.10.23-22.52.30:594][322]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1661.816 Y=-1980.987 Z=192.145
+[2023.10.23-22.52.30:605][323]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1643.937 Y=-1985.880 Z=192.145
+[2023.10.23-22.52.30:618][324]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1626.817 Y=-1990.709 Z=192.145
+[2023.10.23-22.52.30:648][324]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x4x0 took (less than) 28.66 ms
+[2023.10.23-22.52.30:662][325]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1564.497 Y=-2010.354 Z=192.145
+[2023.10.23-22.52.30:680][326]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1540.568 Y=-2022.437 Z=192.145
+[2023.10.23-22.52.30:694][327]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1523.542 Y=-2034.227 Z=192.145
+[2023.10.23-22.52.30:717][327]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x-2x0 took (less than) 21.57 ms
+[2023.10.23-22.52.30:729][328]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1499.862 Y=-2067.516 Z=192.145
+[2023.10.23-22.52.30:747][329]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1491.590 Y=-2084.582 Z=192.145
+[2023.10.23-22.52.30:761][330]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1486.872 Y=-2099.128 Z=192.145
+[2023.10.23-22.52.30:787][330]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_7x-6x0 took (less than) 25.09 ms
+[2023.10.23-22.52.30:798][331]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1488.248 Y=-2134.872 Z=192.145
+[2023.10.23-22.52.30:813][332]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1488.639 Y=-2150.447 Z=192.145
+[2023.10.23-22.52.30:826][333]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1488.844 Y=-2163.294 Z=192.145
+[2023.10.23-22.52.30:845][334]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1488.934 Y=-2181.460 Z=192.145
+[2023.10.23-22.52.30:877][334]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x-5x0 took (less than) 30.72 ms
+[2023.10.23-22.52.30:888][335]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1488.148 Y=-2228.721 Z=192.145
+[2023.10.23-22.52.30:905][336]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1487.717 Y=-2248.216 Z=192.145
+[2023.10.23-22.52.30:919][337]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1487.313 Y=-2263.900 Z=192.145
+[2023.10.23-22.52.30:961][338]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1499.466 Y=-2310.065 Z=192.145
+[2023.10.23-22.52.30:977][339]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1504.734 Y=-2325.909 Z=192.145
+[2023.10.23-22.52.30:991][340]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1509.917 Y=-2339.335 Z=192.145
+[2023.10.23-22.52.31:005][341]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1517.793 Y=-2356.803 Z=192.145
+[2023.10.23-22.52.31:020][342]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1525.074 Y=-2371.464 Z=192.145
+[2023.10.23-22.52.31:042][343]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1535.628 Y=-2392.713 Z=192.145
+[2023.10.23-22.52.31:066][344]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1540.798 Y=-2414.376 Z=192.145
+[2023.10.23-22.52.31:094][344]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_5x-4x0 took (less than) 27.11 ms
+[2023.10.23-22.52.31:105][345]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1535.022 Y=-2451.057 Z=192.145
+[2023.10.23-22.52.31:123][346]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1530.358 Y=-2467.098 Z=192.145
+[2023.10.23-22.52.31:140][347]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1525.330 Y=-2479.798 Z=192.145
+[2023.10.23-22.52.31:154][348]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1519.121 Y=-2492.141 Z=192.145
+[2023.10.23-22.52.31:210][349]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1488.512 Y=-2530.854 Z=192.145
+[2023.10.23-22.52.31:225][350]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1476.575 Y=-2542.331 Z=192.145
+[2023.10.23-22.52.31:238][351]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1467.672 Y=-2549.992 Z=192.145
+[2023.10.23-22.52.31:249][352]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1458.699 Y=-2556.892 Z=192.145
+[2023.10.23-22.52.31:270][353]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1444.076 Y=-2566.234 Z=192.145
+[2023.10.23-22.52.31:299][353]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x-6x0 took (less than) 28.26 ms
+[2023.10.23-22.52.31:312][354]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1420.821 Y=-2597.048 Z=192.145
+[2023.10.23-22.52.31:332][355]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1408.927 Y=-2612.113 Z=192.145
+[2023.10.23-22.52.31:353][356]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1395.509 Y=-2623.149 Z=192.145
+[2023.10.23-22.52.31:407][357]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1382.795 Y=-2635.606 Z=192.145
+[2023.10.23-22.52.31:424][358]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1381.576 Y=-2638.563 Z=192.145
+[2023.10.23-22.52.31:443][359]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1381.367 Y=-2641.149 Z=192.145
+[2023.10.23-22.52.31:476][360]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1384.164 Y=-2646.648 Z=192.145
+[2023.10.23-22.52.31:490][361]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1385.842 Y=-2649.045 Z=192.145
+[2023.10.23-22.52.31:506][362]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1388.046 Y=-2651.556 Z=192.145
+[2023.10.23-22.52.31:532][363]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1392.538 Y=-2655.556 Z=192.145
+[2023.10.23-22.52.31:589][364]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1407.269 Y=-2659.359 Z=192.145
+[2023.10.23-22.52.31:604][365]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1411.585 Y=-2659.611 Z=192.145
+[2023.10.23-22.52.31:615][366]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1415.378 Y=-2659.619 Z=192.145
+[2023.10.23-22.52.31:631][367]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1419.943 Y=-2659.386 Z=192.145
+[2023.10.23-22.52.31:655][367]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x-2x0 took (less than) 21.36 ms
+[2023.10.23-22.52.31:665][368]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1433.348 Y=-2657.289 Z=192.145
+[2023.10.23-22.52.31:681][369]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1439.802 Y=-2656.079 Z=192.145
+[2023.10.23-22.52.31:698][370]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1445.769 Y=-2654.826 Z=192.145
+[2023.10.23-22.52.31:728][370]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_9x-3x0 took (less than) 28.12 ms
+[2023.10.23-22.52.31:742][371]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1465.940 Y=-2649.174 Z=192.145
+[2023.10.23-22.52.31:761][372]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1475.426 Y=-2645.971 Z=192.145
+[2023.10.23-22.52.31:778][373]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1483.398 Y=-2642.838 Z=192.145
+[2023.10.23-22.52.31:812][374]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1501.481 Y=-2633.266 Z=192.145
+[2023.10.23-22.52.31:848][375]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1519.539 Y=-2620.350 Z=192.145
+[2023.10.23-22.52.31:869][376]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1530.515 Y=-2610.914 Z=192.145
+[2023.10.23-22.52.31:928][377]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1545.599 Y=-2578.500 Z=192.145
+[2023.10.23-22.52.31:947][378]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1547.901 Y=-2567.539 Z=192.145
+[2023.10.23-22.52.31:965][379]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1549.235 Y=-2555.505 Z=192.145
+[2023.10.23-22.52.31:984][380]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1549.681 Y=-2544.494 Z=192.145
+[2023.10.23-22.52.32:004][381]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1551.265 Y=-2531.718 Z=192.145
+[2023.10.23-22.52.32:033][381]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x6x0 took (less than) 28.68 ms
+[2023.10.23-22.52.32:045][382]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1559.390 Y=-2501.953 Z=192.145
+[2023.10.23-22.52.32:059][383]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1562.542 Y=-2491.648 Z=192.145
+[2023.10.23-22.52.32:075][384]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1565.903 Y=-2481.570 Z=192.145
+[2023.10.23-22.52.32:102][384]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_9x-2x0 took (less than) 25.35 ms
+[2023.10.23-22.52.32:112][385]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1577.542 Y=-2452.314 Z=192.145
+[2023.10.23-22.52.32:127][386]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1582.461 Y=-2440.465 Z=192.145
+[2023.10.23-22.52.32:142][387]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1587.408 Y=-2428.945 Z=192.145
+[2023.10.23-22.52.32:164][388]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1594.869 Y=-2412.239 Z=192.145
+[2023.10.23-22.52.32:189][388]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x1x0 took (less than) 24.44 ms
+[2023.10.23-22.52.32:201][389]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1609.875 Y=-2380.399 Z=192.145
+[2023.10.23-22.52.32:218][390]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1616.897 Y=-2365.701 Z=192.145
+[2023.10.23-22.52.32:232][391]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1622.802 Y=-2353.419 Z=192.145
+[2023.10.23-22.52.32:257][391]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x5x0 took (less than) 23.09 ms
+[2023.10.23-22.52.32:268][392]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1639.397 Y=-2319.287 Z=192.145
+[2023.10.23-22.52.32:282][393]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1646.352 Y=-2305.013 Z=192.145
+[2023.10.23-22.52.32:297][394]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1653.624 Y=-2290.116 Z=192.145
+[2023.10.23-22.52.32:325][395]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1668.603 Y=-2269.110 Z=192.145
+[2023.10.23-22.52.32:349][395]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x-5x0 took (less than) 23.44 ms
+[2023.10.23-22.52.32:362][396]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1699.126 Y=-2241.241 Z=192.145
+[2023.10.23-22.52.32:381][397]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1716.445 Y=-2227.935 Z=192.145
+[2023.10.23-22.52.32:395][398]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1729.404 Y=-2219.010 Z=192.145
+[2023.10.23-22.52.32:427][399]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1756.677 Y=-2194.655 Z=192.145
+[2023.10.23-22.52.32:444][400]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1769.125 Y=-2182.543 Z=192.145
+[2023.10.23-22.52.32:473][401]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1792.530 Y=-2156.274 Z=192.145
+[2023.10.23-22.52.32:492][402]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1807.357 Y=-2138.446 Z=192.145
+[2023.10.23-22.52.32:543][403]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1845.343 Y=-2087.734 Z=192.145
+[2023.10.23-22.52.32:561][404]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1859.786 Y=-2067.189 Z=192.145
+[2023.10.23-22.52.32:581][405]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1874.737 Y=-2045.282 Z=192.145
+[2023.10.23-22.52.32:602][406]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1889.981 Y=-2022.383 Z=192.145
+[2023.10.23-22.52.32:623][407]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1905.196 Y=-1999.058 Z=192.145
+[2023.10.23-22.52.32:655][408]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1930.425 Y=-1959.475 Z=192.145
+[2023.10.23-22.52.32:674][409]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1945.892 Y=-1934.987 Z=192.145
+[2023.10.23-22.52.32:689][410]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1958.410 Y=-1915.050 Z=192.145
+[2023.10.23-22.52.32:710][411]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1974.218 Y=-1889.713 Z=192.145
+[2023.10.23-22.52.32:738][411]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_9x-1x0 took (less than) 25.79 ms
+[2023.10.23-22.52.32:748][412]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2006.023 Y=-1838.215 Z=192.145
+[2023.10.23-22.52.32:765][413]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2017.420 Y=-1814.001 Z=192.145
+[2023.10.23-22.52.32:780][414]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2025.423 Y=-1792.308 Z=192.145
+[2023.10.23-22.52.32:802][415]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2033.324 Y=-1760.952 Z=192.145
+[2023.10.23-22.52.32:831][415]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_9x1x0 took (less than) 27.41 ms
+[2023.10.23-22.52.32:844][416]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2038.361 Y=-1696.740 Z=192.145
+[2023.10.23-22.52.32:861][417]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2039.366 Y=-1671.094 Z=192.145
+[2023.10.23-22.52.32:874][418]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2039.681 Y=-1649.603 Z=192.145
+[2023.10.23-22.52.32:902][419]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2039.084 Y=-1609.742 Z=192.145
+[2023.10.23-22.52.32:927][419]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_8x4x0 took (less than) 23.12 ms
+[2023.10.23-22.52.32:939][420]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2037.813 Y=-1543.755 Z=192.145
+[2023.10.23-22.52.32:962][421]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2038.087 Y=-1505.648 Z=192.145
+[2023.10.23-22.52.32:976][422]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2038.803 Y=-1479.037 Z=192.145
+[2023.10.23-22.52.33:000][422]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_9x3x0 took (less than) 22.37 ms
+[2023.10.23-22.52.33:012][423]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2043.246 Y=-1414.218 Z=192.145
+[2023.10.23-22.52.33:029][424]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2045.489 Y=-1386.473 Z=192.145
+[2023.10.23-22.52.33:044][425]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2048.255 Y=-1356.476 Z=192.145
+[2023.10.23-22.52.33:104][426]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2061.150 Y=-1245.309 Z=192.145
+[2023.10.23-22.52.33:119][427]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2064.817 Y=-1216.497 Z=192.145
+[2023.10.23-22.52.33:148][428]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2072.077 Y=-1163.016 Z=192.145
+[2023.10.23-22.52.33:164][429]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2077.036 Y=-1127.589 Z=192.145
+[2023.10.23-22.52.33:221][430]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2094.538 Y=-1009.305 Z=192.145
+[2023.10.23-22.52.33:236][431]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2099.325 Y=-977.772 Z=192.145
+[2023.10.23-22.52.33:251][432]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2103.641 Y=-949.597 Z=192.145
+[2023.10.23-22.52.33:268][433]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2109.209 Y=-913.587 Z=192.145
+[2023.10.23-22.52.33:293][433]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x8x0 took (less than) 23.78 ms
+[2023.10.23-22.52.33:307][434]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2122.193 Y=-831.101 Z=192.145
+[2023.10.23-22.52.33:325][435]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2128.344 Y=-791.777 Z=192.145
+[2023.10.23-22.52.33:340][436]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2133.494 Y=-757.214 Z=192.145
+[2023.10.23-22.52.33:368][437]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2140.622 Y=-698.927 Z=192.145
+[2023.10.23-22.52.33:392][437]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x0x0 took (less than) 22.99 ms
+[2023.10.23-22.52.33:405][438]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2144.096 Y=-606.932 Z=192.145
+[2023.10.23-22.52.33:428][439]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2142.283 Y=-555.794 Z=192.145
+[2023.10.23-22.52.33:443][440]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2142.994 Y=-516.165 Z=192.145
+[2023.10.23-22.52.33:467][440]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x-9x0 took (less than) 21.25 ms
+[2023.10.23-22.52.33:478][441]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2151.741 Y=-432.281 Z=192.145
+[2023.10.23-22.52.33:494][442]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2156.466 Y=-395.871 Z=192.145
+[2023.10.23-22.52.33:513][443]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2164.160 Y=-347.532 Z=192.145
+[2023.10.23-22.52.33:537][444]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2173.980 Y=-294.685 Z=192.145
+[2023.10.23-22.52.33:566][444]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x-7x0 took (less than) 26.68 ms
+[2023.10.23-22.52.33:578][445]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2197.039 Y=-193.055 Z=192.145
+[2023.10.23-22.52.33:597][446]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2208.137 Y=-145.786 Z=192.145
+[2023.10.23-22.52.33:614][447]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2217.383 Y=-106.380 Z=192.145
+[2023.10.23-22.52.33:635][448]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2227.607 Y=-61.173 Z=192.145
+[2023.10.23-22.52.33:657][448]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x2x0 took (less than) 20.00 ms
+[2023.10.23-22.52.33:671][449]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2246.239 Y=38.123 Z=192.145
+[2023.10.23-22.52.33:693][450]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2254.506 Y=98.335 Z=192.145
+[2023.10.23-22.52.33:712][451]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2259.282 Y=150.914 Z=192.145
+[2023.10.23-22.52.33:755][452]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2258.512 Y=270.723 Z=192.145
+[2023.10.23-22.52.33:772][453]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2257.067 Y=317.034 Z=192.145
+[2023.10.23-22.52.33:787][454]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2255.148 Y=356.157 Z=192.145
+[2023.10.23-22.52.33:802][455]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2249.234 Y=394.699 Z=192.145
+[2023.10.23-22.52.33:825][455]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x1x0 took (less than) 20.11 ms
+[2023.10.23-22.52.33:836][456]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2214.955 Y=478.451 Z=192.145
+[2023.10.23-22.52.33:852][457]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2197.369 Y=513.683 Z=192.145
+[2023.10.23-22.52.33:866][458]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2180.682 Y=542.890 Z=192.145
+[2023.10.23-22.52.33:887][459]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2150.984 Y=586.440 Z=192.145
+[2023.10.23-22.52.33:912][460]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2114.072 Y=632.665 Z=192.145
+[2023.10.23-22.52.33:968][461]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2045.120 Y=751.446 Z=192.145
+[2023.10.23-22.52.33:988][462]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2021.846 Y=798.206 Z=192.145
+[2023.10.23-22.52.34:004][463]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=2003.033 Y=836.688 Z=192.145
+[2023.10.23-22.52.34:018][464]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1987.756 Y=868.048 Z=192.145
+[2023.10.23-22.52.34:059][465]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1940.967 Y=964.102 Z=192.145
+[2023.10.23-22.52.34:077][466]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1923.567 Y=999.822 Z=192.145
+[2023.10.23-22.52.34:092][467]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1905.221 Y=1037.482 Z=192.145
+[2023.10.23-22.52.34:108][468]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1890.407 Y=1067.894 Z=192.145
+[2023.10.23-22.52.34:167][469]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1831.600 Y=1188.616 Z=192.145
+[2023.10.23-22.52.34:187][470]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1811.193 Y=1230.510 Z=192.145
+[2023.10.23-22.52.34:203][471]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1796.337 Y=1261.008 Z=192.145
+[2023.10.23-22.52.34:220][472]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1781.792 Y=1290.867 Z=192.145
+[2023.10.23-22.52.34:233][473]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1766.764 Y=1321.718 Z=192.145
+[2023.10.23-22.52.34:289][474]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1716.630 Y=1424.637 Z=192.145
+[2023.10.23-22.52.34:306][475]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1701.687 Y=1455.311 Z=192.145
+[2023.10.23-22.52.34:320][476]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1689.957 Y=1479.393 Z=192.145
+[2023.10.23-22.52.34:357][477]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1657.952 Y=1545.094 Z=192.145
+[2023.10.23-22.52.34:374][478]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1644.818 Y=1572.056 Z=192.145
+[2023.10.23-22.52.34:387][479]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1634.664 Y=1592.901 Z=192.145
+[2023.10.23-22.52.34:403][480]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1623.153 Y=1616.533 Z=192.145
+[2023.10.23-22.52.34:433][480]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/Map/ProceduralMap/UEDPIE_0_4x4x0 took (less than) 29.20 ms
+[2023.10.23-22.52.34:444][481]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Server: Localization : X=1590.948 Y=1682.644 Z=192.145
+[2023.10.23-22.52.34:478][481]LogStreaming: Display: FlushAsyncLoading(): 0 QueuedPackages, 228 AsyncPackages
+[2023.10.23-22.52.38:404][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.23-22.52.38:404][481]LogWorld: BeginTearingDown for /Game/Map/MainMap/UEDPIE_0_MainMap
+[2023.10.23-22.52.38:484][481]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.38:485][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.38:488][481]LogNet: World NetDriver shutdown IpNetDriver_19 [GameNetDriver]
+[2023.10.23-22.52.38:488][481]LogNet: DestroyNamedNetDriver IpNetDriver_19 [GameNetDriver]
+[2023.10.23-22.52.38:488][481]LogExit: GameNetDriver IpNetDriver_19 shut down
+[2023.10.23-22.52.38:489][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.23-22.52.38:525][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.38:819][481]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-22.52.38:822][481]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.10.23-22.52.38:822][481]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.10.23-22.52.38:824][481]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.10.23-22.52.38:829][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.23-22.52.39:137][481]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2023.10.23-22.52.39:405][482]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.10.23-22.52.39:425][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.10.23-22.52.40:311][505]LogSlate: Window 'Message Log' being destroyed
+[2023.10.23-22.52.40:334][505]LogSlate: Window 'Message Log' being destroyed
+[2023.10.23-22.52.48:352][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.10.23-22.52.49:375][860]LogSlate: Window 'Save Content' being destroyed
+[2023.10.23-22.52.49:386][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-22.52.49:453][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/AB_Player" FILE="E:/Nomad/Nomad/Content/Player/AB_Player.uasset" SILENT=true
+[2023.10.23-22.52.49:475][860]LogSavePackage: Moving output files for package: /Game/Player/AB_Player
+[2023.10.23-22.52.49:475][860]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/AB_Player3D08FEFE4946EA41185A619CCCEAED28.tmp' to 'E:/Nomad/Nomad/Content/Player/AB_Player.uasset'
+[2023.10.23-22.52.49:537][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter" FILE="E:/Nomad/Nomad/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" SILENT=true
+[2023.10.23-22.52.49:553][860]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2023.10.23-22.52.49:554][860]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/BP_ThirdPersonCharacter77FA130941CE2157CC6004968B55806D.tmp' to 'E:/Nomad/Nomad/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2023.10.23-22.52.49:587][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Anim/Jumping_Up" FILE="E:/Nomad/Nomad/Content/ThirdPerson/Anim/Jumping_Up.uasset" SILENT=true
+[2023.10.23-22.52.49:596][860]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Anim/Jumping_Up
+[2023.10.23-22.52.49:596][860]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Jumping_Up7D34ECD54FA5DAAD99AA7BA49399406F.tmp' to 'E:/Nomad/Nomad/Content/ThirdPerson/Anim/Jumping_Up.uasset'
+[2023.10.23-22.52.49:619][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 234 ms (total: 2.08 sec)
+[2023.10.23-22.52.49:684][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-22.52.49:685][860]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.23-22.52.49:685][860]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.23-22.52.49:685][860]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.23-22.52.49:707][860]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.23-22.52.49:707][860]LogWorldPartition: Display: WorldPartition initialize took 21 ms (total: 118 ms)
+[2023.10.23-22.52.49:712][860]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2023.10.23-22.52.49:712][860]Cmd: MAP LOAD FILE="E:/Nomad/Nomad/Content/ThirdPerson/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.10.23-22.52.49:712][860]LightingResults: New page: Lighting Build
+[2023.10.23-22.52.49:712][860]LoadErrors: New page: Loading map: ThirdPersonMap.umap
+[2023.10.23-22.52.49:740][860]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.49:740][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.49:740][860]LogWorld: UWorld::CleanupWorld for Map3, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.49:740][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.49:740][860]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.49:740][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.49:741][860]LogWorld: UWorld::CleanupWorld for Map6, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.49:741][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.49:741][860]LogWorld: UWorld::CleanupWorld for Map2, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.49:741][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.49:741][860]LogWorld: UWorld::CleanupWorld for Map5, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.49:741][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.49:741][860]LogWorld: UWorld::CleanupWorld for Map4, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.49:741][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.49:741][860]MapCheck: New page: Map Check
+[2023.10.23-22.52.49:741][860]LightingResults: New page: Lighting Build
+[2023.10.23-22.52.49:762][860]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.23-22.52.49:774][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.10.23-22.52.49:778][860]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.23-22.52.49:778][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.23-22.52.49:778][860]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.10.23-22.52.49:796][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.10.23-22.52.49:813][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.10.23-22.52.49:825][860]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2023.10.23-22.52.49:825][860]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-22.52.49:825][860]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-22.52.49:825][860]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.10.23-22.52.49:825][860]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2023.10.23-22.52.49:825][860]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.23-22.52.49:825][860]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.23-22.52.49:847][860]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.10.23-22.52.49:847][860]LogWorldPartition: Display: WorldPartition initialize took 21 ms (total: 139 ms)
+[2023.10.23-22.52.49:893][860]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.23-22.52.49:915][860]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.10.23-22.52.49:924][860]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.23-22.52.49:924][860]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,184ms to complete.
+[2023.10.23-22.52.49:940][860]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.23-22.52.49:940][860]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Player/AB_Player.AB_Player
+[2023.10.23-22.52.49:940][860]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.10.23-22.52.49:940][860]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/ThirdPerson/Anim/Jumping_Up.Jumping_Up
+[2023.10.23-22.52.49:974][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
