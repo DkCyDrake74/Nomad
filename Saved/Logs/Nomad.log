@@ -1203,3 +1203,20 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.23-11.23.39:692][ 50]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,068ms to complete.
 [2023.10.23-11.23.39:693][ 50]AssetCheck: New page: Asset Save: Map1
 [2023.10.23-11.23.39:693][ 50]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map1.Map1
+[2023.10.23-11.24.01:812][754]LogSlate: Window 'New Level' being destroyed
+[2023.10.23-11.24.03:816][895]LogContentBrowser: Deferred new asset file creation: Map2
+[2023.10.23-11.24.03:821][895]LogContentBrowser: Creating deferred item: Map2
+[2023.10.23-11.24.03:828][896]LogContentBrowser: Renaming the item being created (Deferred Item: Map2).
+[2023.10.23-11.24.04:974][987]LogContentBrowser: Attempting asset rename: Map2 -> Map2
+[2023.10.23-11.24.04:977][987]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.23-11.24.04:986][987]LogContentBrowser: End creating deferred item Map2
+[2023.10.23-11.24.06:518][115]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.23-11.24.06:592][115]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.23-11.24.06:592][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/ProceduralMap/Map2" FILE="E:/Nomad/Nomad/Content/Map/ProceduralMap/Map2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.10.23-11.24.06:596][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.10.23-11.24.06:604][115]LogSavePackage: Moving output files for package: /Game/Map/ProceduralMap/Map2
+[2023.10.23-11.24.06:604][115]LogSavePackage: Moving 'E:/Nomad/Nomad/Saved/Map278C7FE3E4BEE048F58EC518F7D446E4A.tmp' to 'E:/Nomad/Nomad/Content/Map/ProceduralMap/Map2.umap'
+[2023.10.23-11.24.06:609][115]LogFileHelpers: Saving map 'Map2' took 0.018
+[2023.10.23-11.24.06:617][115]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms
+[2023.10.23-11.24.06:617][115]AssetCheck: New page: Asset Save: Map2
+[2023.10.23-11.24.06:617][115]LogContentValidation: Display: Validating /Script/Engine.World /Game/Map/ProceduralMap/Map2.Map2
