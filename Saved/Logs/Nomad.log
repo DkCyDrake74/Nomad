@@ -1429,3 +1429,238 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.25-22.32.46:875][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 1.50 sec)
 [2023.10.25-22.32.46:876][283]AssetCheck: New page: Asset Save: WD_SessionManager
 [2023.10.25-22.32.46:876][283]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MainMenu/WD_SessionManager.WD_SessionManager
+[2023.10.25-22.36.10:118][208]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.25-22.36.10:137][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.25-22.36.10:137][208]PIE: New page: PIE session: SessionMenu (26 oct. 2023 à 02:36:10)
+[2023.10.25-22.36.10:137][208]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_SessionMenu
+[2023.10.25-22.36.10:139][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001777s)
+[2023.10.25-22.36.10:139][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/SessionMenu.SessionMenu to /Game/MainMenu/UEDPIE_0_SessionMenu.SessionMenu (0.001824s)
+[2023.10.25-22.36.10:165][208]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.10.25-22.36.10:166][208]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.25-22.36.10:167][208]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.25-22.36.10:167][208]LogAIModule: Creating AISystem for world SessionMenu
+[2023.10.25-22.36.10:168][208]LogPlayLevel: PIE: World Init took: (0.001516s)
+[2023.10.25-22.36.10:168][208]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.10.25-22.36.10:168][208]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.25-22.36.10:168][208]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.25-22.36.10:168][208]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.25-22.36.10:168][208]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.25-22.36.10:168][208]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.25-22.36.10:168][208]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.25-22.36.10:168][208]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.25-22.36.10:168][208]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.25-22.36.10:169][208]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.25-22.36.10:169][208]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.25-22.36.10:169][208]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.25-22.36.10:172][208]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.25-22.36.10:217][208]LogAudioMixer: Display: Using Audio Hardware Device PHL 273V5 (NVIDIA High Definition Audio)
+[2023.10.25-22.36.10:218][208]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.25-22.36.10:218][208]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.25-22.36.10:218][208]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.25-22.36.10:218][208]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.10.25-22.36.10:218][208]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.10.25-22.36.10:221][208]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.10.25-22.36.10:221][208]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.10.25-22.36.10:221][208]LogInit: FAudioDevice initialized with ID 4.
+[2023.10.25-22.36.10:221][208]LogAudio: Display: Audio Device (ID: 4) registered with world 'SessionMenu'.
+[2023.10.25-22.36.10:221][208]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.25-22.36.10:225][208]LogLoad: Game class is 'GM_Session_C'
+[2023.10.25-22.36.10:226][208]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_SessionMenu.SessionMenu up for play (max tick rate 0) at 2023.10.26-00.36.10
+[2023.10.25-22.36.10:226][208]LogWorld: Bringing up level for play took: 0.000555
+[2023.10.25-22.36.10:229][208]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.10.25-22.36.10:232][208]PIE: Server logged in
+[2023.10.25-22.36.10:233][208]PIE: Play in editor total start time 0,096 seconds.
+[2023.10.25-22.36.21:877][783]LogScript: Script Msg: Found a session. Ping is 36
+[2023.10.25-22.36.26:880][ 46]LogScript: Script Msg: Found a session. Ping is 19
+[2023.10.25-22.36.26:918][ 46]LogBlueprintUserMessages: [WD_SessionManager_C_0] Find Session
+[2023.10.25-22.36.27:130][ 46]LogBlueprintUserMessages: [WD_SessionManager_C_0] Session1
+[2023.10.25-22.36.29:370][166]LogBlueprintUserMessages: [WD_JoinSession_C_0] DESKTOP-JMLP15N-DDCAF3BE4A624D10A928AD9EF20F800B
+[2023.10.25-22.36.29:371][166]LogOnlineSession: OSS: Join session: traveling to 192.168.1.14:7777
+[2023.10.25-22.36.29:381][166]LogBlueprintUserMessages: [WD_JoinSession_C_0] Session join
+[2023.10.25-22.36.29:383][166]LogNet: Browse: 192.168.1.14/Game/MainMenu/SessionMenu
+[2023.10.25-22.36.29:384][166]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2023.10.25-22.36.29:384][166]LogNet: Created socket for bind address: 0.0.0.0:0
+[2023.10.25-22.36.29:388][166]LogNet: IpConnection_0 setting maximum channels to: 32767
+[2023.10.25-22.36.29:395][166]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.10.25-22.36.29:539][166]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 2
+[2023.10.25-22.36.29:660][166]LogNet: Game client on port 7777, rate 100000
+[2023.10.25-22.36.29:703][166]LogNetVersion: Nomad 1.0.0.0, NetCL: 26909020, EngineNetworkVersion: 32, GameNetworkVersion: 0 (Checksum: 2874389401)
+[2023.10.25-22.36.36:620][528]LogOnlineSession: Warning: OSS: Player maison-HP-CFDD968B44D7C06088753488BB4B5C80 is not part of session (GameSession)
+[2023.10.25-22.36.36:620][528]LogOnlineSession: Warning: OSS: Player maison-HP-CFDD968B44D7C06088753488BB4B5C80 is not part of session (GameSession)
+[2023.10.25-22.36.36:620][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-22.36.36:620][528]LogWorld: BeginTearingDown for /Game/MainMenu/UEDPIE_0_SessionMenu
+[2023.10.25-22.36.36:621][528]LogWorld: UWorld::CleanupWorld for SessionMenu, bSessionEnded=true, bCleanupResources=true
+[2023.10.25-22.36.36:621][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-22.36.36:629][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.25-22.36.36:639][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-22.36.36:694][528]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.10.25-22.36.36:702][528]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 1, Time: 2023.10.25-22.36.36
+[2023.10.25-22.36.36:702][528]LogNet: UNetConnection::SendCloseReason:
+[2023.10.25-22.36.36:702][528]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2023.10.25-22.36.36:702][528]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.10.25-22.36.36:703][528]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.25-22.36.36:703][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.10.25-22.36.36:703][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.25-22.36.36:705][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.10.25-22.36.36:711][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-22.36.36:712][528]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2023.10.25-22.36.36:712][528]LogExit: PendingNetDriver None shut down
+[2023.10.25-22.36.36:735][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.10.25-22.36.36:766][529]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.10.25-22.36.37:788][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.25-22.36.37:809][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.25-22.36.37:809][567]PIE: New page: PIE session: SessionMenu (26 oct. 2023 à 02:36:37)
+[2023.10.25-22.36.37:809][567]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_SessionMenu
+[2023.10.25-22.36.37:812][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002827s)
+[2023.10.25-22.36.37:812][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/SessionMenu.SessionMenu to /Game/MainMenu/UEDPIE_0_SessionMenu.SessionMenu (0.002905s)
+[2023.10.25-22.36.37:841][567]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2023.10.25-22.36.37:843][567]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.25-22.36.37:843][567]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.25-22.36.37:844][567]LogAIModule: Creating AISystem for world SessionMenu
+[2023.10.25-22.36.37:844][567]LogPlayLevel: PIE: World Init took: (0.001875s)
+[2023.10.25-22.36.37:845][567]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.10.25-22.36.37:845][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.25-22.36.37:845][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.25-22.36.37:845][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.25-22.36.37:845][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.25-22.36.37:845][567]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.25-22.36.37:845][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.25-22.36.37:845][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.25-22.36.37:845][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.25-22.36.37:846][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.25-22.36.37:846][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.25-22.36.37:846][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.25-22.36.37:851][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.25-22.36.37:895][567]LogAudioMixer: Display: Using Audio Hardware Device PHL 273V5 (NVIDIA High Definition Audio)
+[2023.10.25-22.36.37:896][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.25-22.36.37:896][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.25-22.36.37:896][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.25-22.36.37:897][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.10.25-22.36.37:897][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.10.25-22.36.37:899][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.10.25-22.36.37:899][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.10.25-22.36.37:899][567]LogInit: FAudioDevice initialized with ID 5.
+[2023.10.25-22.36.37:899][567]LogAudio: Display: Audio Device (ID: 5) registered with world 'SessionMenu'.
+[2023.10.25-22.36.37:900][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.10.25-22.36.37:904][567]LogLoad: Game class is 'GM_Session_C'
+[2023.10.25-22.36.37:905][567]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_SessionMenu.SessionMenu up for play (max tick rate 0) at 2023.10.26-00.36.37
+[2023.10.25-22.36.37:905][567]LogWorld: Bringing up level for play took: 0.000539
+[2023.10.25-22.36.37:908][567]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.10.25-22.36.37:911][567]PIE: Server logged in
+[2023.10.25-22.36.37:912][567]PIE: Play in editor total start time 0,103 seconds.
+[2023.10.25-22.36.45:143][893]LogScript: Script Msg: Found a session. Ping is 21
+[2023.10.25-22.36.50:147][126]LogScript: Script Msg: Found a session. Ping is 21
+[2023.10.25-22.36.50:147][126]LogBlueprintUserMessages: [WD_SessionManager_C_0] Find Session
+[2023.10.25-22.36.50:148][126]LogBlueprintUserMessages: [WD_SessionManager_C_0] Session1
+[2023.10.25-22.36.56:570][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-22.36.56:570][422]LogWorld: BeginTearingDown for /Game/MainMenu/UEDPIE_0_SessionMenu
+[2023.10.25-22.36.56:570][422]LogWorld: UWorld::CleanupWorld for SessionMenu, bSessionEnded=true, bCleanupResources=true
+[2023.10.25-22.36.56:570][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-22.36.56:577][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.25-22.36.56:588][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-22.36.56:609][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-22.36.56:610][422]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.10.25-22.36.56:610][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.10.25-22.36.56:612][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.10.25-22.36.56:624][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.10.25-22.36.56:653][423]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.10.25-22.36.58:905][518]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.25-22.36.58:921][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.25-22.36.58:921][518]PIE: New page: PIE session: SessionMenu (26 oct. 2023 à 02:36:58)
+[2023.10.25-22.36.58:921][518]LogPlayLevel: Creating play world package: /Game/MainMenu/UEDPIE_0_SessionMenu
+[2023.10.25-22.36.58:923][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001480s)
+[2023.10.25-22.36.58:923][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu/SessionMenu.SessionMenu to /Game/MainMenu/UEDPIE_0_SessionMenu.SessionMenu (0.001530s)
+[2023.10.25-22.36.58:946][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.10.25-22.36.58:947][518]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.25-22.36.58:947][518]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.25-22.36.58:948][518]LogAIModule: Creating AISystem for world SessionMenu
+[2023.10.25-22.36.58:948][518]LogPlayLevel: PIE: World Init took: (0.001412s)
+[2023.10.25-22.36.58:948][518]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.10.25-22.36.58:948][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.25-22.36.58:948][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.25-22.36.58:948][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.25-22.36.58:948][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.25-22.36.58:948][518]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.10.25-22.36.58:949][518]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.25-22.36.58:949][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.10.25-22.36.58:949][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.25-22.36.58:949][518]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.25-22.36.58:949][518]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.25-22.36.58:949][518]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.25-22.36.58:952][518]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.25-22.36.58:995][518]LogAudioMixer: Display: Using Audio Hardware Device PHL 273V5 (NVIDIA High Definition Audio)
+[2023.10.25-22.36.58:995][518]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.25-22.36.58:995][518]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.25-22.36.58:995][518]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.25-22.36.58:996][518]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.10.25-22.36.58:996][518]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.10.25-22.36.58:998][518]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.10.25-22.36.58:999][518]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.10.25-22.36.58:999][518]LogInit: FAudioDevice initialized with ID 6.
+[2023.10.25-22.36.58:999][518]LogAudio: Display: Audio Device (ID: 6) registered with world 'SessionMenu'.
+[2023.10.25-22.36.58:999][518]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.10.25-22.36.59:003][518]LogLoad: Game class is 'GM_Session_C'
+[2023.10.25-22.36.59:003][518]LogWorld: Bringing World /Game/MainMenu/UEDPIE_0_SessionMenu.SessionMenu up for play (max tick rate 0) at 2023.10.26-00.36.59
+[2023.10.25-22.36.59:004][518]LogWorld: Bringing up level for play took: 0.000501
+[2023.10.25-22.36.59:006][518]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.10.25-22.36.59:009][518]PIE: Server logged in
+[2023.10.25-22.36.59:010][518]PIE: Play in editor total start time 0,089 seconds.
+[2023.10.25-22.37.07:975][905]LogScript: Script Msg: Found a session. Ping is 21
+[2023.10.25-22.37.12:980][138]LogScript: Script Msg: Found a session. Ping is 20
+[2023.10.25-22.37.12:980][138]LogBlueprintUserMessages: [WD_SessionManager_C_0] Find Session
+[2023.10.25-22.37.12:981][138]LogBlueprintUserMessages: [WD_SessionManager_C_0] Session1
+[2023.10.25-22.37.17:213][335]LogBlueprintUserMessages: [WD_JoinSession_C_0] DESKTOP-JMLP15N-0C5E77B74ACAEC279C62B0B10D7DFC96
+[2023.10.25-22.37.17:213][335]LogOnlineSession: OSS: Join session: traveling to 192.168.1.14:7777
+[2023.10.25-22.37.17:213][335]LogBlueprintUserMessages: [WD_JoinSession_C_0] Session join
+[2023.10.25-22.37.17:214][335]LogNet: Browse: 192.168.1.14/Game/MainMenu/SessionMenu
+[2023.10.25-22.37.17:215][335]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2023.10.25-22.37.17:215][335]LogNet: Created socket for bind address: 0.0.0.0:0
+[2023.10.25-22.37.17:215][335]LogNet: IpConnection_1 setting maximum channels to: 32767
+[2023.10.25-22.37.17:215][335]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.10.25-22.37.17:221][335]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 3
+[2023.10.25-22.37.17:221][335]LogNet: Game client on port 7777, rate 100000
+[2023.10.25-22.37.27:226][799]LogNet: Initial Connect Diagnostics: Sent '9' packets in last '10.012484' seconds, no packets received yet.
+[2023.10.25-22.37.37:241][307]LogNet: Initial Connect Diagnostics: Sent '10' packets in last '10.015199' seconds, no packets received yet.
+[2023.10.25-22.37.47:242][866]LogNet: Initial Connect Diagnostics: Sent '10' packets in last '10.000144' seconds, no packets received yet.
+[2023.10.25-22.37.57:256][426]LogNet: Initial Connect Diagnostics: Sent '10' packets in last '10.013761' seconds, no packets received yet.
+[2023.10.25-22.38.03:830][792]LogOnlineSession: Warning: OSS: Player maison-HP-285FAD2641A92192D148A381665BFDB0 is not part of session (GameSession)
+[2023.10.25-22.38.03:831][792]LogOnlineSession: Warning: OSS: Player maison-HP-285FAD2641A92192D148A381665BFDB0 is not part of session (GameSession)
+[2023.10.25-22.38.03:831][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-22.38.03:831][792]LogWorld: BeginTearingDown for /Game/MainMenu/UEDPIE_0_SessionMenu
+[2023.10.25-22.38.03:831][792]LogWorld: UWorld::CleanupWorld for SessionMenu, bSessionEnded=true, bCleanupResources=true
+[2023.10.25-22.38.03:831][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-22.38.03:837][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.25-22.38.03:846][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.25-22.38.03:865][792]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.10.25-22.38.03:865][792]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID, Channels: 1, Time: 2023.10.25-22.38.03
+[2023.10.25-22.38.03:865][792]LogNet: UNetConnection::SendCloseReason:
+[2023.10.25-22.38.03:865][792]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2023.10.25-22.38.03:865][792]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.10.25-22.38.03:865][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.25-22.38.03:866][792]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.10.25-22.38.03:866][792]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.10.25-22.38.03:869][792]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.10.25-22.38.03:879][792]LogNet: UNetConnection::PendingConnectionLost. [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: None, Driver: PendingNetDriver None, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID bPendingDestroy=0 
+[2023.10.25-22.38.03:879][792]LogExit: PendingNetDriver None shut down
+[2023.10.25-22.38.03:883][792]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.10.25-22.38.03:913][793]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.10.25-22.39.35:955][438]BlueprintLog: New page: Compile WD_JoinSession
+[2023.10.25-22.39.36:006][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.10.25-22.40.06:644][986]BlueprintLog: New page: Compile WD_SessionManager
+[2023.10.25-22.40.06:697][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.10.25-22.42.24:180][229]BlueprintLog: New page: Compile WD_JoinSession
+[2023.10.25-22.42.24:224][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.10.25-22.42.47:390][421]BlueprintLog: New page: Compile WD_JoinSession
+[2023.10.25-22.42.47:434][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.10.25-22.42.48:461][467]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.10.25-22.42.48:469][467]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.25-22.42.48:514][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/WD_SessionManager" FILE="../../../../../Projet/Nomad/Content/MainMenu/WD_SessionManager.uasset" SILENT=true
+[2023.10.25-22.42.48:566][467]LogSavePackage: Moving output files for package: /Game/MainMenu/WD_SessionManager
+[2023.10.25-22.42.48:569][467]LogSavePackage: Moving '../../../../../Projet/Nomad/Saved/WD_SessionManager5E2D8AA84F5FF2F49C44FEA2A9D6DAA9.tmp' to '../../../../../Projet/Nomad/Content/MainMenu/WD_SessionManager.uasset'
+[2023.10.25-22.42.48:576][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/WD_JoinSession" FILE="../../../../../Projet/Nomad/Content/MainMenu/WD_JoinSession.uasset" SILENT=true
+[2023.10.25-22.42.48:659][467]LogSavePackage: Moving output files for package: /Game/MainMenu/WD_JoinSession
+[2023.10.25-22.42.48:661][467]LogSavePackage: Moving '../../../../../Projet/Nomad/Saved/WD_JoinSessionF287864A41F7A04D0511E6A64A47C926.tmp' to '../../../../../Projet/Nomad/Content/MainMenu/WD_JoinSession.uasset'
+[2023.10.25-22.42.48:671][467]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 1.71 sec)
+[2023.10.25-22.42.48:674][467]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.25-22.42.48:674][467]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MainMenu/WD_SessionManager.WD_SessionManager
+[2023.10.25-22.42.48:676][467]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/MainMenu/WD_JoinSession.WD_JoinSession
