@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"D:\\Données\\Documents\\Nomad\\Nomad\\Intermediate\\Source\\Nomad.Build.cs",
+		"D:\\Données\\Documents\\Nomad\\Nomad\\Intermediate\\Source\\Nomad.Target.cs",
+		"D:\\Données\\Documents\\Nomad\\Nomad\\Intermediate\\Source\\NomadClient.Target.cs",
+		"D:\\Données\\Documents\\Nomad\\Nomad\\Intermediate\\Source\\NomadEditor.Target.cs",
+		"D:\\Données\\Documents\\Nomad\\Nomad\\Intermediate\\Source\\NomadServer.Target.cs"
+	],
+	"EngineVersion": "5.3.1"
+}
