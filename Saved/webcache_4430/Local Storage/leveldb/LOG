@@ -1,3 +1,2 @@
-2023/10/26-23:21:44.166 52b0 Reusing MANIFEST D:/Données/Documents/Nomad/Nomad/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2023/10/26-23:21:44.167 52b0 Recovering log #3
-2023/10/26-23:21:44.167 52b0 Reusing old log D:/Données/Documents/Nomad/Nomad/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2023/10/27-00:06:44.796 6804 Creating DB D:/Données/Documents/Nomad/Nomad/Saved/webcache_4430\Local Storage\leveldb since it was missing.
+2023/10/27-00:06:44.926 6804 Reusing MANIFEST D:/Données/Documents/Nomad/Nomad/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
